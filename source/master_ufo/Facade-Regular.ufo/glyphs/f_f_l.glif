@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="f_f_l" format="2">
+  <advance width="1140"/>
+  <anchor x="990" y="0" name="bottom"/>
+  <anchor x="990" y="480" name="center"/>
+  <anchor x="1200" y="420" name="periodcentered"/>
+  <anchor x="990" y="960" name="top"/>
+  <anchor x="1044" y="960" name="topright"/>
+  <outline>
+    <component base="f_f"/>
+    <component base="l" xOffset="840"/>
+  </outline>
+</glyph>

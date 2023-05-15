@@ -1,0 +1,51 @@
+    sources:
+      - Facade-Stencil.glyphs
+    axisOrder:
+      - wght
+#    outputDir: "./fonts"
+    familyName: "Facade Stencil"
+#   version: 1.000
+#     stat:
+#       - name: Width
+#         tag: wdth
+#         values:
+#         - name: UltraCondensed
+#           value: 50
+#           ...
+#       - name: Weight
+#         tag: wght
+#         values:
+#         - name: Hairline
+#           rangeMinValue: 1
+#           nominalValue: 1
+#           rangeMaxValue: 50
+#         ...
+#     statFormat4:
+#       - name: Green
+#         location:
+#           wght: 300
+#           wdth: 200
+#       - name: Blue
+#         location:
+#           wght: 400
+#           wdth: 200
+#     ...
+#     instances:
+#       Texturina[wght].ttf:
+#       - coordinates:
+#           wght: 400
+#       - coordinates:
+#           wght: 500
+#       - familyName: "Texturina Exotic"
+#         styleName: "Medium"
+#         coordinates:
+#           wght: 500
+#         ...
+#       Texturina-Italic[wght].ttf:
+#       - coordinates:
+#           wght: 700
+#         ...
+#     vttSources:
+#       Texturina[wght].ttf: vtt-roman.ttx
+#       Texturina-Italic[wght].ttf: vtt-italic.ttx
+#     ...

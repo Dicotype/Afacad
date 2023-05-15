@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="w" format="2">
+  <advance width="1000.0"/>
+  <unicode hex="0077"/>
+  <anchor x="500.0" y="0.0" name="bottom"/>
+  <anchor x="504.0" y="600.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="692.5" y="-30.0" type="line"/>
+      <point x="759.75" y="111.25" type="line"/>
+      <point x="504.0" y="622.0" type="line"/>
+      <point x="368.0" y="340.5" type="line"/>
+      <point x="435.5" y="197.5" type="line"/>
+      <point x="500.0" y="332.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="307.5" y="-30.0" type="line"/>
+      <point x="399.5" y="132.75" type="line"/>
+      <point x="178.5" y="600.0" type="line"/>
+      <point x="7.5" y="600.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="791.75" y="178.5" type="line"/>
+      <point x="992.5" y="600.0" type="line"/>
+      <point x="829.5" y="600.0" type="line"/>
+      <point x="708.25" y="344.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

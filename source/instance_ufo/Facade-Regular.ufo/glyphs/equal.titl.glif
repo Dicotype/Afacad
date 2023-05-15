@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="equal.titl" format="2">
+  <advance width="750"/>
+  <outline>
+    <contour>
+      <point x="90" y="311" type="line"/>
+      <point x="660" y="311" type="line"/>
+      <point x="660" y="361" type="line"/>
+      <point x="90" y="361" type="line"/>
+    </contour>
+    <contour>
+      <point x="90" y="539" type="line"/>
+      <point x="660" y="539" type="line"/>
+      <point x="660" y="589" type="line"/>
+      <point x="90" y="589" type="line"/>
+    </contour>
+  </outline>
+</glyph>
