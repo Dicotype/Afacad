@@ -9,10 +9,10 @@ The alphabet, numerals and symbols were designed by Kristian Möller (KTKM, http
 
 The Facade project is led by Kristian Möller, a type designer based in Stockholm. To contribute, see (https://github.com/ktkm/Facade).
 
-![Lacquered Numerals](https://github.com/ktkm/Facade/blob/main/documents/facade_04_lacquered_numerals.png)
-![Facade Kapitael](https://github.com/ktkm/Facade/blob/main/documents/facade_03_kapitael.png)
-![Letters](https://github.com/ktkm/Facade/blob/main/documents/facade_06_letters.png)
-![Backdoor](https://github.com/ktkm/Facade/blob/main/documents/facade_05_backdoor.png)
+![Lacquered Numerals](https://github.com/Dicotype/Facade/blob/main/documents/facade_04_lacquered_numerals.png)
+![Facade Kapitael](https://github.com/Dicotype/Facade/blob/main/documents/facade_03_kapitael.png)
+![Letters](https://github.com/Dicotype/Facade/blob/main/documents/facade_06_letters.png)
+![Backdoor](https://github.com/Dicotype/Facade/blob/main/documents/facade_05_backdoor.png)
 
 
 
