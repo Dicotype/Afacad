@@ -1,5 +1,5 @@
 # Facade
-![Facade Blueprint](https://github.com/ktkm/Facade/blob/main/documents/facade_02_blueprint.png)
+![Facade Blueprint](https://github.com/Dicotype/Facade/blob/main/documents/facade_02_blueprint.png)
 
 The typeface <i>Facade</i> started as a custom lettering project for the Swedish housing tenant Slagskeppet, who wanted new house address plaques for their entrances. The letters were designed to conform to the architectural proportions used by the Architect Sture Elmén in the 1940s. They were later cut out of thick steel, and afterwards, powder lacquered for long-lasting durability.
 
