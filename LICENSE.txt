@@ -1,0 +1,62 @@
+------------------------------------------------------------
+DICOTYPE FONT LICENSE 1.0 - 27 JANUARY 2023
+------------------------------------------------------------
+
+This End User License Agreement (EULA) is a legal agreement
+between you and Dicotype (the "Foundry") for the use of our
+font software (the "Font"). By downloading, installing, or
+using the Font, you agree to be bound by the terms of this
+EULA.
+
+1. LICENSE GRANT
+The Foundry grants you a non-exclusive, non-transferable
+license to use the Font on up to five (5) devices at any
+time to create and publish content, including printed
+materials, digital documents, and online content.
+
+2. RESTRICTIONS
+You may not copy, modify, distribute, or sell the Font or
+any portion of it without the prior written consent of the
+Foundry. You may not use the Font in any way that infringes
+the rights of the Foundry or any third party.
+
+3. OWNERSHIP
+The Font is owned by the Foundry and is protected by
+copyright and other intellectual property laws. Therefore,
+Dicotype retains all rights, titles, and interests in the
+Font, including all copies.
+
+4. TERMINATION
+This EULA will terminate automatically without notice from
+Dicotype if you fail to comply with any term of this EULA.
+You must immediately stop using the Font upon termination
+and destroy all copies.
+
+5. DISCLAIMER OF WARRANTIES
+The Font is provided "as is" without warranty of any kind,
+express or implied, including, but not limited to, the
+implied warranties of merchantability and fitness for a
+particular purpose. Dicotype does not warrant that the Font
+will meet your requirements or that its operation will be
+uninterrupted or error-free.
+
+6. LIMITATION OF LIABILITY
+In no event shall Dicotype be liable for any damages
+whatsoever, including, but not limited to, direct, indirect,
+special, incidental, or consequential damages arising out of
+or in connection with the use or inability to use the Font.
+
+7. GOVERNING LAW
+This EULA shall be governed by and construed following the
+laws of the Country or State without giving effect to any
+conflicts of laws provisions.
+
+8. ENTIRE AGREEMENT
+This EULA constitutes the entire agreement between the
+parties concerning the use of the Font. Accordingly, it
+supersedes all prior agreements, whether written or oral,
+regarding the subject matter of this EULA.
+
+Using the Font, you acknowledge that you have read this
+EULA, understand it, and agree to be bound by its terms and
+conditions.
