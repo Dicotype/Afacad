@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="G.stroke" format="2">
+  <advance width="920"/>
+  <anchor x="455" y="0" name="bottom"/>
+  <anchor x="813" y="372" name="center"/>
+  <anchor x="678" y="900" name="top"/>
+  <outline>
+    <contour>
+      <point x="513" y="-18" type="curve" smooth="yes"/>
+      <point x="615" y="-18"/>
+      <point x="713" y="14"/>
+      <point x="797" y="71" type="curve"/>
+      <point x="902" y="504" type="line"/>
+      <point x="737" y="504" type="line"/>
+      <point x="661" y="188" type="line"/>
+      <point x="623" y="168"/>
+      <point x="579" y="156"/>
+      <point x="533" y="156" type="curve" smooth="yes"/>
+      <point x="391" y="156"/>
+      <point x="282" y="268"/>
+      <point x="282" y="413" type="curve" smooth="yes"/>
+      <point x="282" y="586"/>
+      <point x="433" y="744"/>
+      <point x="602" y="744" type="curve" smooth="yes"/>
+      <point x="702" y="744"/>
+      <point x="784" y="690"/>
+      <point x="825" y="608" type="curve"/>
+      <point x="918" y="801" type="line"/>
+      <point x="843" y="874"/>
+      <point x="739" y="918"/>
+      <point x="621" y="918" type="curve" smooth="yes"/>
+      <point x="342" y="918"/>
+      <point x="92" y="670"/>
+      <point x="92" y="396" type="curve" smooth="yes"/>
+      <point x="92" y="163"/>
+      <point x="274" y="-18"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="l.ss03" format="2">
+  <advance width="330.0"/>
+  <anchor x="75.25" y="0.0" name="bottom"/>
+  <anchor x="193.25" y="480.0" name="center"/>
+  <anchor x="393.0" y="420.0" name="periodcentered"/>
+  <anchor x="315.25" y="960.0" name="top"/>
+  <anchor x="394.0" y="960.0" name="topright"/>
+  <outline>
+    <contour>
+      <point x="192.75" y="-12.0" type="curve"/>
+      <point x="252.25" y="110.0" type="line"/>
+      <point x="208.5" y="115.25"/>
+      <point x="188.5" y="140.25"/>
+      <point x="202.75" y="197.25" type="curve" smooth="yes"/>
+      <point x="394.0" y="960.0" type="line"/>
+      <point x="236.5" y="960.0" type="line"/>
+      <point x="50.0" y="216.0" type="line" smooth="yes"/>
+      <point x="17.75" y="86.5"/>
+      <point x="79.0" y="1.5"/>
+    </contour>
+  </outline>
+</glyph>

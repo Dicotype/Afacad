@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lslash" format="2">
+  <advance width="365.0"/>
+  <unicode hex="0142"/>
+  <anchor x="107.5" y="0.0" name="bottom"/>
+  <anchor x="225.5" y="480.0" name="center"/>
+  <anchor x="420.5" y="420.0" name="periodcentered"/>
+  <anchor x="347.5" y="960.0" name="top"/>
+  <anchor x="414.0" y="960.0" name="topright"/>
+  <outline>
+    <component base="l" xOffset="30.0"/>
+    <component base="slashshortcomb" xOffset="-52.5" yOffset="180.0"/>
+  </outline>
+</glyph>

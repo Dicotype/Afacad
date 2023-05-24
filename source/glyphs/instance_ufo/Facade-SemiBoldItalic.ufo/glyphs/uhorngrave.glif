@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uhorngrave" format="2">
+  <advance width="840.0"/>
+  <unicode hex="1EEB"/>
+  <anchor x="278.0" y="0.0" name="bottom"/>
+  <anchor x="423.0" y="600.0" name="top"/>
+  <outline>
+    <component base="uhorn"/>
+    <component base="gravecomb" xOffset="-74.0"/>
+  </outline>
+</glyph>

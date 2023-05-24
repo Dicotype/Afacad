@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="otildemacron" format="2">
+  <advance width="720"/>
+  <unicode hex="022D"/>
+  <anchor x="286" y="0" name="bottom"/>
+  <anchor x="360" y="300" name="center"/>
+  <anchor x="316" y="0" name="ogonek"/>
+  <anchor x="434" y="600" name="top"/>
+  <anchor x="594" y="600" name="topright"/>
+  <outline>
+    <component base="o"/>
+    <component base="tildecomb_macroncomb" xOffset="-1"/>
+  </outline>
+</glyph>

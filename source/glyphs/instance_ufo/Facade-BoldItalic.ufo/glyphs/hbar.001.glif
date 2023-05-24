@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hbar.001" format="2">
+  <advance width="700"/>
+  <anchor x="285" y="0" name="bottom"/>
+  <anchor x="271" y="780" name="center"/>
+  <anchor x="315" y="960" name="top"/>
+  <outline>
+    <component base="h.hbar"/>
+    <component base="strokeshortcomb.h" xOffset="71" yOffset="480"/>
+  </outline>
+</glyph>

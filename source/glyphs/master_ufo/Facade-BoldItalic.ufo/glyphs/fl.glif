@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fl" format="2">
+  <advance width="760"/>
+  <unicode hex="FB02"/>
+  <anchor x="100" y="0" name="bottom_1"/>
+  <anchor x="530" y="0" name="bottom_2"/>
+  <anchor x="648" y="480" name="center"/>
+  <anchor x="843" y="420" name="periodcentered"/>
+  <anchor x="481" y="960" name="top_1"/>
+  <anchor x="770" y="960" name="top_2"/>
+  <anchor x="853" y="960" name="topright"/>
+  <outline>
+    <component base="f"/>
+    <component base="l" xOffset="450"/>
+  </outline>
+</glyph>

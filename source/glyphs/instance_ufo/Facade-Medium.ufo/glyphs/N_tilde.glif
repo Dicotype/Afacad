@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ntilde" format="2">
+  <advance width="945.0"/>
+  <unicode hex="00D1"/>
+  <anchor x="510.0" y="30.0" name="bottom"/>
+  <anchor x="460.5" y="870.0" name="top"/>
+  <outline>
+    <component base="N"/>
+    <component base="tildecomb.case" xOffset="100.5" yOffset="-30.0"/>
+  </outline>
+</glyph>

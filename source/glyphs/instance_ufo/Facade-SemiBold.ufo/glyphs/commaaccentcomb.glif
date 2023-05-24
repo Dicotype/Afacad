@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commaaccentcomb" format="2">
+  <unicode hex="0326"/>
+  <anchor x="360.0" y="0.0" name="_bottom"/>
+  <anchor x="280.0" y="-330.0" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="199.5" y="-330.0" type="curve"/>
+      <point x="360.5" y="-330.0" type="line"/>
+      <point x="402.0" y="-265.0"/>
+      <point x="427.75" y="-192.0"/>
+      <point x="433.75" y="-111.0" type="curve"/>
+      <point x="286.25" y="-111.0" type="line"/>
+      <point x="279.25" y="-199.75"/>
+      <point x="246.75" y="-271.75"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>720</integer>
+    </dict>
+  </lib>
+</glyph>

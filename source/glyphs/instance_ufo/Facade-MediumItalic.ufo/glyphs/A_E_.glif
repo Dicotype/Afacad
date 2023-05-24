@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="AE" format="2">
+  <advance width="1030.0"/>
+  <unicode hex="00C6"/>
+  <anchor x="564.5" y="0.0" name="bottom"/>
+  <anchor x="782.0" y="0.0" name="ogonek"/>
+  <anchor x="631.5" y="900.0" name="top"/>
+  <anchor x="227.0" y="720.0" name="top-vertical"/>
+  <anchor x="551.0" y="900.0" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="-60.0" y="0.0" type="line"/>
+      <point x="95.0" y="0.0" type="line"/>
+      <point x="401.5" y="468.0" type="line"/>
+      <point x="438.5" y="525.0"/>
+      <point x="477.0" y="582.0"/>
+      <point x="517.0" y="655.0" type="curve"/>
+      <point x="516.5" y="582.0"/>
+      <point x="521.5" y="525.0"/>
+      <point x="526.5" y="468.0" type="curve"/>
+      <point x="562.0" y="0.0" type="line"/>
+      <point x="928.0" y="0.0" type="line"/>
+      <point x="960.5" y="132.0" type="line"/>
+      <point x="685.0" y="132.0" type="line"/>
+      <point x="658.5" y="480.0" type="line"/>
+      <point x="872.0" y="480.0" type="line"/>
+      <point x="903.0" y="606.0" type="line"/>
+      <point x="648.0" y="606.0" type="line"/>
+      <point x="636.0" y="771.0" type="line"/>
+      <point x="914.0" y="771.0" type="line"/>
+      <point x="946.0" y="900.0" type="line"/>
+      <point x="539.0" y="900.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="177.5" y="213.5" type="line"/>
+      <point x="582.5" y="213.5" type="line"/>
+      <point x="568.0" y="333.0" type="line"/>
+      <point x="251.5" y="333.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

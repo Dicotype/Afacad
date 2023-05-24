@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quotesinglbase" format="2">
+  <advance width="285.0"/>
+  <unicode hex="201A"/>
+  <outline>
+    <contour>
+      <point x="-120.25" y="-150.0" type="curve"/>
+      <point x="41.0" y="-150.0" type="line"/>
+      <point x="123.75" y="-59.0"/>
+      <point x="181.75" y="49.5"/>
+      <point x="212.0" y="172.5" type="curve"/>
+      <point x="59.0" y="172.5" type="line"/>
+      <point x="24.75" y="34.75"/>
+      <point x="-42.25" y="-70.0"/>
+    </contour>
+  </outline>
+</glyph>

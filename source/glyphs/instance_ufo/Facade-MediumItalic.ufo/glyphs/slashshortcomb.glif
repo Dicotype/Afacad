@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="slashshortcomb" format="2">
+  <unicode hex="0337"/>
+  <anchor x="278.0" y="300.0" name="_center"/>
+  <outline>
+    <contour>
+      <point x="81.0" y="222.0" type="line"/>
+      <point x="125.5" y="152.0" type="line"/>
+      <point x="469.0" y="378.0" type="line"/>
+      <point x="424.5" y="448.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>550</integer>
+    </dict>
+  </lib>
+</glyph>

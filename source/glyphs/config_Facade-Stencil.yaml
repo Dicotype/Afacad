@@ -30,13 +30,3 @@ outputDir: "../../fonts/facade stencil"
 buildTTF: true
 buildOTF: true
 autohintTTF: true
-instances:
-  Facade-Stencil[wght].ttf:
-  - coordinates:
-      wght: 400
-  - coordinates:
-      wght: 500
-  - coordinates:
-      wght: 600
-  - coordinates:
-      wght: 700

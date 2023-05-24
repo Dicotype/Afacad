@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="l.lslash" format="2">
+  <advance width="307.5"/>
+  <anchor x="153.75" y="0.0" name="bottom"/>
+  <anchor x="153.75" y="480.0" name="center"/>
+  <anchor x="363.75" y="420.0" name="periodcentered"/>
+  <anchor x="153.75" y="960.0" name="top"/>
+  <anchor x="232.5" y="960.0" name="topright"/>
+  <outline>
+    <contour>
+      <point x="75.0" y="391.5" type="line"/>
+      <point x="232.5" y="494.75" type="line"/>
+      <point x="232.5" y="960.0" type="line"/>
+      <point x="75.0" y="960.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="205.5" y="306.0" type="line"/>
+      <point x="102.0" y="220.5" type="line"/>
+      <point x="102.0" y="98.75" type="line"/>
+      <point x="205.5" y="81.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

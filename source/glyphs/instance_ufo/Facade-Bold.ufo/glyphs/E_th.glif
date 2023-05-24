@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Eth" format="2">
+  <advance width="940"/>
+  <unicode hex="00D0"/>
+  <anchor x="407" y="0" name="bottom"/>
+  <anchor x="179" y="480" name="center"/>
+  <anchor x="407" y="914" name="top"/>
+  <outline>
+    <component base="D"/>
+    <component base="strokeshortcomb.case" xOffset="-20" yOffset="180"/>
+  </outline>
+</glyph>

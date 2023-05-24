@@ -100822,7 +100822,7 @@ value = "https://www.dicotype.com";
 },
 {
 key = versionString;
-value = "Version 1.000; Development; Non-Release 1; Build 12";
+value = "Version 1.000; Development; Non-Release 1; Build 13";
 },
 {
 key = licenseURL;

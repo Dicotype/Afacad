@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="AEacute" format="2">
+  <advance width="1035.0"/>
+  <unicode hex="01FC"/>
+  <anchor x="759.25" y="0.0" name="bottom"/>
+  <anchor x="945.0" y="0.0" name="ogonek"/>
+  <anchor x="688.75" y="1170.0" name="top"/>
+  <anchor x="127.5" y="720.0" name="top-vertical"/>
+  <anchor x="375.57875" y="900.0" name="topleft"/>
+  <outline>
+    <component base="AE"/>
+    <component base="acutecomb.case" xOffset="256.75"/>
+  </outline>
+</glyph>

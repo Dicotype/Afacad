@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="H.bar" format="2">
+  <advance width="800"/>
+  <anchor x="325" y="0" name="bottom"/>
+  <anchor x="510" y="750" name="center"/>
+  <anchor x="547" y="900" name="top"/>
+  <anchor x="273" y="900" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="51" y="0" type="line"/>
+      <point x="165" y="0" type="line"/>
+      <point x="276" y="444" type="line"/>
+      <point x="596" y="444" type="line"/>
+      <point x="485" y="0" type="line"/>
+      <point x="599" y="0" type="line"/>
+      <point x="824" y="900" type="line"/>
+      <point x="710" y="900" type="line"/>
+      <point x="622" y="546" type="line"/>
+      <point x="302" y="546" type="line"/>
+      <point x="390" y="900" type="line"/>
+      <point x="276" y="900" type="line"/>
+    </contour>
+  </outline>
+</glyph>

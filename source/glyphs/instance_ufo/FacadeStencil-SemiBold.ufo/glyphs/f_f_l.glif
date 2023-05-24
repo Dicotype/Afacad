@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="f_f_l" format="2">
+  <advance width="1147.5"/>
+  <anchor x="220.0" y="0.0" name="bottom_1"/>
+  <anchor x="993.75" y="0.0" name="bottom_2"/>
+  <anchor x="993.75" y="480.0" name="center"/>
+  <anchor x="1203.75" y="420.0" name="periodcentered"/>
+  <anchor x="364.0" y="960.0" name="top_1"/>
+  <anchor x="993.75" y="960.0" name="top_2"/>
+  <anchor x="1072.5" y="960.0" name="topright"/>
+  <outline>
+    <component base="f_f"/>
+    <component base="l" xOffset="840.0"/>
+  </outline>
+</glyph>

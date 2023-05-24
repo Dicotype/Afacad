@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="greater.titl" format="2">
+  <advance width="750.0"/>
+  <outline>
+    <contour>
+      <point x="56.5" y="165.5" type="line"/>
+      <point x="711.5" y="451.0" type="line"/>
+      <point x="196.5" y="736.5" type="line"/>
+      <point x="180.5" y="672.0" type="line"/>
+      <point x="468.0" y="515.0" type="line" smooth="yes"/>
+      <point x="504.5" y="494.5"/>
+      <point x="547.5" y="475.5"/>
+      <point x="588.0" y="457.5" type="curve"/>
+      <point x="538.5" y="439.5"/>
+      <point x="486.5" y="420.5"/>
+      <point x="439.0" y="400.0" type="curve" smooth="yes"/>
+      <point x="75.0" y="242.5" type="line"/>
+    </contour>
+  </outline>
+</glyph>

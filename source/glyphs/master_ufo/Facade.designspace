@@ -1,0 +1,556 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="400" maximum="700" default="400">
+      <map input="400" output="120"/>
+      <map input="500" output="150"/>
+      <map input="600" output="165"/>
+      <map input="700" output="180"/>
+    </axis>
+    <axis tag="ital" name="Italic" minimum="90" maximum="104" default="90"/>
+  </axes>
+  <rules>
+    <rule name="BRACKET.150.180">
+      <conditionset>
+        <condition name="Weight" minimum="150" maximum="180"/>
+      </conditionset>
+      <sub name="cent" with="cent.BRACKET.150"/>
+      <sub name="dollar" with="dollar.BRACKET.150"/>
+    </rule>
+  </rules>
+  <sources>
+    <source filename="Facade-Regular.ufo" name="Facade Regular" familyname="Facade" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="120"/>
+        <dimension name="Italic" xvalue="90"/>
+      </location>
+    </source>
+    <source filename="Facade-Bold.ufo" name="Facade Bold" familyname="Facade" stylename="Bold">
+      <location>
+        <dimension name="Weight" xvalue="180"/>
+        <dimension name="Italic" xvalue="90"/>
+      </location>
+    </source>
+    <source filename="Facade-Bold.ufo" name="Facade Bold 17 May 22, 17:06" layer="17 May 22, 17:06">
+      <location>
+        <dimension name="Weight" xvalue="240"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="Facade-RegularItalic.ufo" name="Facade Regular Italic" familyname="Facade" stylename="Regular Italic">
+      <location>
+        <dimension name="Weight" xvalue="120"/>
+        <dimension name="Italic" xvalue="104"/>
+      </location>
+    </source>
+    <source filename="Facade-BoldItalic.ufo" name="Facade Bold Italic" familyname="Facade" stylename="Bold Italic">
+      <location>
+        <dimension name="Weight" xvalue="180"/>
+        <dimension name="Italic" xvalue="104"/>
+      </location>
+    </source>
+    <source filename="Facade-BoldItalic.ufo" name="Facade Bold Italic 17 May 22, 17:06" layer="17 May 22, 17:06">
+      <location>
+        <dimension name="Weight" xvalue="240"/>
+        <dimension name="Italic" xvalue="10"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Facade Regular" familyname="Facade" stylename="Regular" filename="../instance_ufo/Facade-Regular.ufo" stylemapfamilyname="Facade" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="120"/>
+        <dimension name="Italic" xvalue="90"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>400</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>90</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>1 1 0 0; Facade</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>2 1 0 0; Regular</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>6 1 0 0; Facade-Regular</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>4 1 0 0; Facade Regular</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>1 3 1 1033; Facade</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>2 3 1 1033; Regular</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>4 3 1 1033; Facade-Regular</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Facade Italic" familyname="Facade" stylename="Italic" filename="../instance_ufo/Facade-Italic.ufo" stylemapfamilyname="Facade" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="120"/>
+        <dimension name="Italic" xvalue="104"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>400</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>104</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>1 1 0 0; Facade</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>2 1 0 0; Italic</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>6 1 0 0; Facade-Italic</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>4 1 0 0; Facade Italic</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>1 3 1 1033; Facade</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>2 3 1 1033; Italic</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>4 3 1 1033; Facade-Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Facade Medium" familyname="Facade" stylename="Medium" filename="../instance_ufo/Facade-Medium.ufo" stylemapfamilyname="Facade Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="150"/>
+        <dimension name="Italic" xvalue="90"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>500</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>90</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>1 1 0 0; Facade</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>2 1 0 0; Medium</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>6 1 0 0; Facade-Medium</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>4 1 0 0; Facade Medium</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>1 3 1 1033; Facade Medium</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>2 3 1 1033; Regular</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>4 3 1 1033; Facade-Medium</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Facade Medium Italic" familyname="Facade" stylename="Medium Italic" filename="../instance_ufo/Facade-MediumItalic.ufo" stylemapfamilyname="Facade Medium" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="150"/>
+        <dimension name="Italic" xvalue="104"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>500</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>104</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>1 1 0 0; Facade</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>2 1 0 0; Medium Italic</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>6 1 0 0; Facade-MediumItalic</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>4 1 0 0; Facade Medium Italic</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>1 3 1 1033; Facade Medium</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>2 3 1 1033; Italic</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>4 3 1 1033; Facade-MediumItalic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Facade SemiBold" familyname="Facade" stylename="SemiBold" filename="../instance_ufo/Facade-SemiBold.ufo" stylemapfamilyname="Facade SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="165"/>
+        <dimension name="Italic" xvalue="90"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>600</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>90</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>1 1 0 0; Facade</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>2 1 0 0; SemiBold</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>6 1 0 0; Facade-SemiBold</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>4 1 0 0; Facade SemiBold</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>1 3 1 1033; Facade SemiBold</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>2 3 1 1033; Regular</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>4 3 1 1033; Facade-SemiBold</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Facade SemiBold Italic" familyname="Facade" stylename="SemiBold Italic" filename="../instance_ufo/Facade-SemiBoldItalic.ufo" stylemapfamilyname="Facade SemiBold Italic" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="165"/>
+        <dimension name="Italic" xvalue="104"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>600</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>104</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>1 1 0 0; Facade</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>2 1 0 0; SemiBold Italic</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>6 1 0 0; Facade-SemiBoldItalic</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>4 1 0 0; Facade SemiBold Italic</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>1 3 1 1033; Facade SemiBold</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>2 3 1 1033; Italic</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>4 3 1 1033; Facade-SemiBoldItalic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Facade Bold" familyname="Facade" stylename="Bold" filename="../instance_ufo/Facade-Bold.ufo" stylemapfamilyname="Facade" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="180"/>
+        <dimension name="Italic" xvalue="90"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>700</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>90</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>1 1 0 0; Facade</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>2 1 0 0; Bold</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>6 1 0 0; Facade-Bold</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>4 1 0 0; Facade Bold</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>1 3 1 1033; Facade</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>2 3 1 1033; Bold</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>4 3 1 1033; Facade-Bold</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Facade Bold Italic" familyname="Facade" stylename="Bold Italic" filename="../instance_ufo/Facade-BoldItalic.ufo" stylemapfamilyname="Facade Italic" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="180"/>
+        <dimension name="Italic" xvalue="104"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>700</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>104</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>1 1 0 0; Facade</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>2 1 0 0; Bold Italic</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>6 1 0 0; Facade-BoldItalic</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>4 1 0 0; Facade Bold Italic</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>1 3 1 1033; Facade</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>2 3 1 1033; Bold Italic</string>
+            </array>
+            <array>
+              <string>Name Table Entry</string>
+              <string>4 3 1 1033; Facade-BoldItalic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>public.skipExportGlyphs</key>
+      <array>
+        <string>A.ring</string>
+        <string>Adieresis.ss01</string>
+        <string>E.ss05</string>
+        <string>F.ss05</string>
+        <string>G.stroke</string>
+        <string>H.bar</string>
+        <string>H.ss05</string>
+        <string>J.ss02</string>
+        <string>Jacute.ss02</string>
+        <string>Odieresis.ss01</string>
+        <string>Udieresis.ss01</string>
+        <string>dieresiscomb.Adieresis.case</string>
+        <string>dieresiscomb.Odieresis.case</string>
+        <string>dieresiscomb.vertical</string>
+        <string>dieresiscomb.vertical.A</string>
+        <string>slashlongcomb</string>
+        <string>slashlongcomb.case</string>
+        <string>slashshortcomb</string>
+        <string>slashshortcomb.case</string>
+        <string>zero.osf</string>
+      </array>
+    </dict>
+  </lib>
+</designspace>

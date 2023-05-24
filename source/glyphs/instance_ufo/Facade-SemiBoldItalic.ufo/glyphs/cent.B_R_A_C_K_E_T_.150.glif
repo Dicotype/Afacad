@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cent.BRACKET.150" format="2">
+  <advance width="750.0"/>
+  <outline>
+    <contour>
+      <point x="429.25" y="132.0" type="curve" smooth="yes"/>
+      <point x="506.5" y="132.0"/>
+      <point x="577.75" y="154.5"/>
+      <point x="630.75" y="196.25" type="curve"/>
+      <point x="630.75" y="381.0" type="line"/>
+      <point x="600.75" y="329.75"/>
+      <point x="533.25" y="274.5"/>
+      <point x="445.5" y="274.5" type="curve" smooth="yes"/>
+      <point x="351.5" y="274.5"/>
+      <point x="289.5" y="341.0"/>
+      <point x="289.5" y="427.0" type="curve" smooth="yes"/>
+      <point x="289.5" y="530.0"/>
+      <point x="378.0" y="623.25"/>
+      <point x="487.0" y="623.25" type="curve" smooth="yes"/>
+      <point x="558.75" y="623.25"/>
+      <point x="609.75" y="584.5"/>
+      <point x="630.75" y="529.25" type="curve"/>
+      <point x="708.75" y="688.25" type="line"/>
+      <point x="657.75" y="736.0"/>
+      <point x="588.0" y="765.0"/>
+      <point x="505.5" y="765.0" type="curve" smooth="yes"/>
+      <point x="309.0" y="765.0"/>
+      <point x="138.25" y="598.5"/>
+      <point x="138.25" y="412.25" type="curve" smooth="yes"/>
+      <point x="138.25" y="249.25"/>
+      <point x="266.75" y="132.0"/>
+    </contour>
+    <contour>
+      <point x="295.0" y="0.0" type="line"/>
+      <point x="397.0" y="0.0" type="line"/>
+      <point x="612.25" y="870.0" type="line"/>
+      <point x="510.25" y="870.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs._originalLayerName</key>
+      <string>30 Jan 23, 09:52</string>
+    </dict>
+  </lib>
+</glyph>

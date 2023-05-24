@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dek.lf" format="2">
+  <advance width="690.0"/>
+  <outline>
+    <contour>
+      <point x="311.25" y="-13.0" type="curve" smooth="yes"/>
+      <point x="482.0" y="-13.0"/>
+      <point x="628.25" y="133.25"/>
+      <point x="628.25" y="285.0" type="curve" smooth="yes"/>
+      <point x="628.25" y="314.75"/>
+      <point x="623.0" y="344.25"/>
+      <point x="610.5" y="378.0" type="curve"/>
+      <point x="437.0" y="378.0" type="line"/>
+      <point x="462.25" y="346.0"/>
+      <point x="475.25" y="314.0"/>
+      <point x="475.25" y="280.0" type="curve" smooth="yes"/>
+      <point x="475.25" y="200.75"/>
+      <point x="407.0" y="132.25"/>
+      <point x="328.0" y="132.25" type="curve" smooth="yes"/>
+      <point x="262.0" y="132.25"/>
+      <point x="213.5" y="182.25"/>
+      <point x="213.5" y="246.0" type="curve" smooth="yes"/>
+      <point x="213.5" y="294.0"/>
+      <point x="239.5" y="329.75"/>
+      <point x="282.25" y="375.0" type="curve" smooth="yes"/>
+      <point x="774.25" y="900.0" type="line"/>
+      <point x="199.25" y="900.0" type="line"/>
+      <point x="163.0" y="753.0" type="line"/>
+      <point x="502.25" y="753.0" type="line"/>
+      <point x="487.25" y="789.25" type="line"/>
+      <point x="176.75" y="470.75" type="line" smooth="yes"/>
+      <point x="96.5" y="388.5"/>
+      <point x="54.0" y="322.75"/>
+      <point x="54.0" y="234.0" type="curve" smooth="yes"/>
+      <point x="54.0" y="94.75"/>
+      <point x="166.75" y="-13.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Number</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Decimal Digit</string>
+    </dict>
+  </lib>
+</glyph>

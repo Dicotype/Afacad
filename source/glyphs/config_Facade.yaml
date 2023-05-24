@@ -3,10 +3,10 @@ sources:
 familyName: Facade
 # version: 1.000
 axisOrder:
-  - wght
   - ital
+  - wght
 stat:
-  Facade[wght].ttf:
+  Facade[ital,wght].ttf:
   - name: Weight
     tag: wght
     values:
@@ -23,20 +23,12 @@ stat:
     tag: ital
     values:
     - name: Roman
-      value: 0
+      value: 90
       linkedValue: 1
       flags: 2
+    - name: Italic
+      value: 104
 outputDir: "../../fonts/facade"
 buildTTF: true
 buildOTF: true
 autohintTTF: true
-instances:
-  Facade[wght].ttf:
-  - coordinates:
-      wght: 400
-  - coordinates:
-      wght: 500
-  - coordinates:
-      wght: 600
-  - coordinates:
-      wght: 700
