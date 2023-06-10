@@ -7,7 +7,7 @@ By adding weights and extending the language support, I hope to accomplish a fun
 
 The alphabet, numerals and symbols were designed by Kristian Möller (KTKM, https://www.ktkm.se) and are part of the Dicotype Foundry (Dicotype, https://www.dicotype.com).
 
-The Facade project is led by Kristian Möller, a type designer based in Stockholm. To contribute, see (https://github.com/ktkm/Facade).
+The Facade project is led by Kristian Möller, a type designer based in Stockholm. To contribute, see (https://github.com/Dicotype/Facade).
 
 ![Lacquered Numerals](https://github.com/Dicotype/Facade/blob/main/documents/facade_03_kapitael.png)
 ![Backdoor](https://github.com/Dicotype/Facade/blob/main/documents/facade_05_backdoor.png)
