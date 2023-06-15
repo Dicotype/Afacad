@@ -1,62 +1,94 @@
 ------------------------------------------------------------
-DICOTYPE FONT LICENSE 1.0 - 27 JANUARY 2023
+DICOTYPE FONT LICENSE 1.0 - 7 JUNE 2023
 ------------------------------------------------------------
 
-This End User License Agreement (EULA) is a legal agreement
-between you and Dicotype (the "Foundry") for the use of our
-font software (the "Font"). By downloading, installing, or
-using the Font, you agree to be bound by the terms of this
-EULA.
+End-User License Agreement (EULA)
 
-1. LICENSE GRANT
-The Foundry grants you a non-exclusive, non-transferable
-license to use the Font on up to five (5) devices at any
-time to create and publish content, including printed
-materials, digital documents, and online content.
+IMPORTANT: PLEASE READ THIS END-USER LICENSE AGREEMENT ("EULA")
+CAREFULLY BEFORE USING THE DICOTYPE FONT SOFTWARE. BY DOWNLOADING,
+INSTALLING, COPYING, OR OTHERWISE USING THE FONT SOFTWARE, YOU AGREE TO
+BE BOUND BY THE TERMS OF THIS EULA. IF YOU DO NOT AGREE TO THE TERMS OF
+THIS EULA, DO NOT USE THE FONT SOFTWARE.
 
-2. RESTRICTIONS
-You may not copy, modify, distribute, or sell the Font or
-any portion of it without the prior written consent of the
-Foundry. You may not use the Font in any way that infringes
-the rights of the Foundry or any third party.
+This EULA is a legal agreement between you (hereinafter referred to as
+"Licensee") and Dicotype (hereinafter referred to as "Licensor"),
+collectively referred to as the "Parties," governing the use of the
+Dicotype font software (hereinafter referred to as the "Font Software")
+in the formats described below:
 
-3. OWNERSHIP
-The Font is owned by the Foundry and is protected by
-copyright and other intellectual property laws. Therefore,
-Dicotype retains all rights, titles, and interests in the
-Font, including all copies.
-
-4. TERMINATION
-This EULA will terminate automatically without notice from
-Dicotype if you fail to comply with any term of this EULA.
-You must immediately stop using the Font upon termination
-and destroy all copies.
-
-5. DISCLAIMER OF WARRANTIES
-The Font is provided "as is" without warranty of any kind,
-express or implied, including, but not limited to, the
-implied warranties of merchantability and fitness for a
-particular purpose. Dicotype does not warrant that the Font
-will meet your requirements or that its operation will be
-uninterrupted or error-free.
-
-6. LIMITATION OF LIABILITY
-In no event shall Dicotype be liable for any damages
-whatsoever, including, but not limited to, direct, indirect,
-special, incidental, or consequential damages arising out of
-or in connection with the use or inability to use the Font.
-
-7. GOVERNING LAW
-This EULA shall be governed by and construed following the
-laws of the Country or State without giving effect to any
-conflicts of laws provisions.
-
-8. ENTIRE AGREEMENT
-This EULA constitutes the entire agreement between the
-parties concerning the use of the Font. Accordingly, it
-supersedes all prior agreements, whether written or oral,
-regarding the subject matter of this EULA.
-
-Using the Font, you acknowledge that you have read this
-EULA, understand it, and agree to be bound by its terms and
+Font Formats and Usage:
+a. The Font Software provided in OpenType (otf) and TrueType (ttf)
+formats is licensed for desktop usage only.
+b. The Font Software provided in Web Open Font Format (woff) and
+Web Open Font Format 2 (woff2) formats is licensed for use on
+websites and web applications.
+Grant of License:
+a. Desktop Usage: Licensor grants Licensee a non-exclusive,
+non-transferable license to install and use the Font Software in
+OpenType (otf) and TrueType (ttf) formats on computers owned or
+controlled by the Licensee, strictly for personal or internal
+business purposes.
+b. Web Usage: Licensor grants Licensee a non-exclusive,
+non-transferable license to host, serve, or link to the Font
+Software in Web Open Font Format (woff) and Web Open Font Format
+2 (woff2) formats on websites and web applications owned or
+controlled by the Licensee, subject to the restrictions outlined
+in Section 3.
+Restrictions:
+a. Licensee shall not distribute, sell, sublicense, lease, rent,
+loan, or otherwise transfer the Font Software to any third party,
+except as expressly permitted in this EULA.
+b. Licensee shall not modify, adapt, translate, reverse engineer,
+decompile, disassemble, or create derivative works based on the
+Font Software, except as permitted by applicable law.
+c. Licensee shall not embed the Font Software in any software,
+applications, or devices that enable the creation of documents or
+content using the Font Software, except as specifically licensed
+in this EULA.
+d. Licensee shall not use the Font Software to create or distribute
+any materials that infringe upon any third-party intellectual
+property rights or violate any applicable laws or regulations.
+Ownership:
+a. The Font Software and all intellectual property rights therein
+are and shall remain the sole property of Licensor. Licensee
+acknowledges that the Font Software is licensed, not sold.
+b. Licensee agrees to take all reasonable steps to prevent
+unauthorized access, use, or distribution of the Font Software.
+Termination:
+a. This EULA is effective until terminated. Licensor may terminate
+this EULA if Licensee fails to comply with any of its terms and
 conditions.
+b. Upon termination, Licensee shall immediately cease all use of the
+Font Software and, at Licensor's discretion, destroy or return all
+copies of the Font Software and related documentation to Licensor.
+Disclaimer of Warranty:
+THE FONT SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+LICENSOR DOES NOT WARRANT THAT THE FONT SOFTWARE WILL MEET LICENSEE'S
+REQUIREMENTS OR THAT THE OPERATION OF THE FONT SOFTWARE WILL BE
+UNINTERRUPTED OR ERROR-FREE.
+Limitation of Liability:
+IN NO EVENT SHALL LICENSOR BE LIABLE FOR ANY DAMAGES (INCLUDING,
+WITHOUT LIMITATION, INCIDENTAL, SPECIAL, INDIRECT, OR CONSEQUENTIAL
+DAMAGES) ARISING OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE,
+EVEN IF LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+Governing Law:
+This EULA shall be governed by and construed in accordance with the
+laws of the jurisdiction in which Licensor is located, without regard
+to conflicts of laws principles. The United Nations Convention on
+Contracts for the International Sale of Goods shall not apply to this
+EULA.
+Entire Agreement:
+This EULA constitutes the entire agreement between the Parties
+relating to the Font Software and supersedes all prior or
+contemporaneous agreements, proposals, or understandings, whether
+oral or written, relating to the subject matter herein.
+By downloading, installing, copying, or otherwise using the Font
+Software, Licensee acknowledges that they have read, understood, and
+agree to be bound by the terms and conditions of this EULA.
+
+If you have any questions regarding this EULA, please contact Dicotype
+at info@dicotype.com.
+
+Copyright (c) 2023 by Dicotype. All rights reserved.

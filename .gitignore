@@ -1,6 +1,8 @@
 .DS_Store
-afm
-afm backup
+source/afm
+source/afm backup
+source/fontlab
+source/glyphs/backslanted
 ai
 psd
 glyphs support
