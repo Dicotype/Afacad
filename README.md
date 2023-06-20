@@ -5,7 +5,7 @@ The ‘Facade typeface project’ started in 2017 as a custom lettering project 
 
 I plan to accomplish a functional typeface family suitable for industrial and commercial usage by adding weights and extending the language support.
 
-The alphabet, numerals and symbols were designed by Kristian Möller (KTKM, https://www.ktkm.se) and are part of the Dicotype Foundry (Dicotype, https://www.dicotype.com).
+The alphabet, numerals and symbols were designed by Kristian Möller (KTKM, https://www.ktkm.se) and are part of the Dicotype Library (Dicotype, https://www.dicotype.com).
 
 The Facade project is led by Kristian Möller, a type designer based in Stockholm. To contribute, see (https://github.com/Dicotype/Facade).
 
