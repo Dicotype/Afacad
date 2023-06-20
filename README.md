@@ -10,8 +10,7 @@ The alphabet, numerals and symbols were designed by Kristian Möller (KTKM, http
 The Facade project is led by Kristian Möller, a type designer based in Stockholm. To contribute, see (https://github.com/Dicotype/Facade).
 
 ![Lacquered Numerals](https://github.com/Dicotype/Facade/blob/main/documents/facade_03_kapitael.png)
-![Facade Blueprint](https://github.com/Dicotype/Facade/blob/main/documents/facade_02_blueprint.png)
-![Backdoor](https://github.com/Dicotype/Facade/blob/main/documents/facade_05_backdoor.png)
+![Facade Blueprint](https://github.com/Dicotype/Facade/blob/main/documents/facade_02_promo.png)
 
 
 
