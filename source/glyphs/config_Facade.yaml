@@ -29,6 +29,6 @@ stat:
     - name: Italic
       value: 104
 outputDir: "../../fonts/facade"
-buildTTF: false
-buildOTF: false
+buildTTF: true
+buildOTF: true
 autohintTTF: true

@@ -9,7 +9,8 @@ DisplayStrings = (
 "/one.lf/two.lf/three.lf/four.lf/five.lf/six.lf/seven.lf/eight.lf/nine.lf/dek.lf/el.lf 
 /one.osf/two.osf/three.osf/four.osf/five.osf/six.osf/seven.osf/eight.osf/nine.osf/dek.osf/el.osf",
 "/zero.osf/one.osf/two.osf/three.osf/four.osf/five.osf/six.osf/seven.osf/eight.osf/nine.osf/dek.osf/el.osf/one.tosf",
-"π"
+"π",
+XTXYZKY
 );
 axes = (
 {
@@ -37196,7 +37197,7 @@ unicode = 7808;
 glyphname = X;
 kernLeft = X;
 kernRight = K;
-lastChange = "2023-06-15 07:01:17 +0000";
+lastChange = "2023-06-20 12:47:00 +0000";
 layers = (
 {
 background = {
@@ -37491,7 +37492,7 @@ unicode = 88;
 glyphname = Y;
 kernLeft = Y;
 kernRight = Y;
-lastChange = "2023-06-19 09:27:05 +0000";
+lastChange = "2023-06-20 12:46:57 +0000";
 layers = (
 {
 anchors = (
@@ -187053,7 +187054,7 @@ two.lf = -10;
 "@MMK_R_T" = -60;
 "@MMK_R_U" = -30;
 "@MMK_R_V" = -60;
-"@MMK_R_Y" = -90;
+"@MMK_R_Y" = -30;
 "@MMK_R_a.ss02" = -20;
 "@MMK_R_b" = -20;
 "@MMK_R_c" = -30;
@@ -187123,6 +187124,7 @@ two.lf = -10;
 "@MMK_R_C" = -90;
 "@MMK_R_J" = -90;
 "@MMK_R_S" = -30;
+"@MMK_R_X" = -60;
 "@MMK_R_a.ss02" = -110;
 "@MMK_R_c" = -120;
 "@MMK_R_colon" = -90;
@@ -187586,7 +187588,7 @@ two.lf = -10;
 "@MMK_R_T" = -60;
 "@MMK_R_U" = -30;
 "@MMK_R_V" = -60;
-"@MMK_R_Y" = -90;
+"@MMK_R_Y" = -30;
 "@MMK_R_a.ss02" = -20;
 "@MMK_R_b" = -20;
 "@MMK_R_c" = -30;
@@ -187656,6 +187658,7 @@ two.lf = -10;
 "@MMK_R_C" = -90;
 "@MMK_R_J" = -90;
 "@MMK_R_S" = -30;
+"@MMK_R_X" = -60;
 "@MMK_R_a.ss02" = -110;
 "@MMK_R_c" = -120;
 "@MMK_R_colon" = -90;
@@ -188123,7 +188126,7 @@ two.lf = -10;
 "@MMK_R_T" = -60;
 "@MMK_R_U" = -30;
 "@MMK_R_V" = -60;
-"@MMK_R_Y" = -90;
+"@MMK_R_Y" = -60;
 "@MMK_R_a.ss02" = -40;
 "@MMK_R_b" = -20;
 "@MMK_R_c" = -30;
@@ -188193,6 +188196,7 @@ two.lf = -10;
 "@MMK_R_C" = -70;
 "@MMK_R_J" = -90;
 "@MMK_R_S" = -30;
+"@MMK_R_X" = -60;
 "@MMK_R_a.ss02" = -110;
 "@MMK_R_c" = -120;
 "@MMK_R_colon" = -90;
@@ -188660,7 +188664,7 @@ two.lf = -10;
 "@MMK_R_T" = -60;
 "@MMK_R_U" = -30;
 "@MMK_R_V" = -60;
-"@MMK_R_Y" = -90;
+"@MMK_R_Y" = -60;
 "@MMK_R_a.ss02" = -40;
 "@MMK_R_b" = -20;
 "@MMK_R_c" = -30;
@@ -188731,6 +188735,7 @@ two.lf = -10;
 "@MMK_R_C" = -70;
 "@MMK_R_J" = -90;
 "@MMK_R_S" = -10;
+"@MMK_R_X" = -60;
 "@MMK_R_a.ss02" = -110;
 "@MMK_R_c" = -120;
 "@MMK_R_colon" = -90;
