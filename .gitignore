@@ -1,9 +1,14 @@
 .DS_Store
+documents/facade_07_stencil_basement.png
+documents/facade_04_lacquered_numerals.png
+documents/facade_06_letters.png
 source/afm
 source/afm backup
 source/fontlab
 source/glyphs/backslanted
+source/glyphs/stencil
 ai
+indd
 psd
 glyphs support
 fonts backup
