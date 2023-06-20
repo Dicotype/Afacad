@@ -11,7 +11,6 @@ The Facade project is led by Kristian Möller, a type designer based in Stockhol
 
 ![Lacquered Numerals](https://github.com/Dicotype/Facade/blob/main/documents/facade_03_kapitael.png)
 ![Backdoor](https://github.com/Dicotype/Facade/blob/main/documents/facade_05_backdoor.png)
-#![Stencil Basement](https://github.com/Dicotype/Facade/blob/main/documents/facade_07_stencil_basement.png)
 
 
 
