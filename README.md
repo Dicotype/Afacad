@@ -1,5 +1,5 @@
 # Afacad
-![Afacad Blueprint](https://github.com/Dicotype/Afacad/blob/main/documents/afacad_01_promo.png)
+![Afacad Backdoor](https://github.com/Dicotype/Afacad/blob/main/documents/afacad_01_promo.png)
 
 The 'Afacad typeface project' commenced in 2017 as a personalized lettering endeavour for Slagskeppet, a Swedish housing tenant, who sought fresh house address numbering for their entrances. The letters and numerals were meticulously crafted to harmonize with the architectural proportions and materials employed by Architect Sture Elmén during the 1940s. These unique letters are expertly cut from robust steel and coated with powder lacquer, ensuring their enduring resilience.
 
@@ -9,8 +9,9 @@ The alphabet, numerals and symbols were designed by Kristian Möller (KTKM, http
 
 The Afacad project is led by Kristian Möller, a type designer based in Stockholm. To contribute, see (https://github.com/Dicotype/Afacad).
 
-![Afacad Blueprint](https://github.com/Dicotype/Afacad/blob/main/documents/afacad_02_promo.png)
-![Lacquered Numerals](https://github.com/Dicotype/Afacad/blob/main/documents/afacad_03_kapitael.png)
+![Afacad Master Weights](https://github.com/Dicotype/Afacad/blob/main/documents/afacad_02_promo.png)
+![Afacad Lacquered Number Twelve](https://github.com/Dicotype/Afacad/blob/main/documents/afacad_03_kapitael.png)
+![Afacad Lacquered Numerals](https://github.com/Dicotype/Afacad/blob/main/documents/afacad_04_promo.png)
 
 
 
