@@ -10,7 +10,8 @@ DisplayStrings = (
 ",
 "",
 "π",
-XTXYZKY
+XTXYZKY,
+"Talvez o mesmo banho de banho luxuoso seja alcançado no banho de sabão, uma aplicação de água quente e sabão para todo o corpo, seguido imediatamente por uma imersão a frio, ou um banho de esponja. Um banho é ao mesmo tempo uma necessidade e um luxo, e para obter o maior número de benefícios, incluindo o aumento da saúde, o apetite, o vigor e os bons espíritos, o banho de sabão é o mais eficaz e, além disso, o mais agradável e menos tentador para a constituição fraca ou excessivamente sensível."
 );
 axes = (
 {
@@ -112310,11 +112311,10 @@ width = 720;
 unicode = 8211;
 },
 {
-category = Punctuation;
 glyphname = threequarteremdash;
 kernLeft = hyphen;
 kernRight = hyphen;
-lastChange = "2023-06-19 11:18:46 +0000";
+lastChange = "2023-06-21 11:59:33 +0000";
 layers = (
 {
 hints = (
@@ -112337,7 +112337,7 @@ nodes = (
 );
 }
 );
-width = 1440;
+width = 1080;
 },
 {
 hints = (
@@ -112409,8 +112409,6 @@ nodes = (
 width = 1080;
 }
 );
-sortName = Da0702;
-subCategory = Dash;
 },
 {
 glyphname = emdash;
@@ -112900,11 +112898,10 @@ width = 720;
 );
 },
 {
-category = Punctuation;
 glyphname = threequarteremdash.case;
 kernLeft = hyphen.case;
 kernRight = hyphen.case;
-lastChange = "2023-06-19 11:15:40 +0000";
+lastChange = "2023-06-21 12:00:15 +0000";
 layers = (
 {
 hints = (
@@ -112999,8 +112996,6 @@ nodes = (
 width = 1080;
 }
 );
-sortName = case.Da07;
-subCategory = Dash;
 },
 {
 glyphname = emdash.case;
@@ -113361,11 +113356,10 @@ width = 720;
 );
 },
 {
-category = Punctuation;
 glyphname = threequarteremdash.titl;
 kernLeft = hyphen;
 kernRight = hyphen;
-lastChange = "2023-06-19 11:15:22 +0000";
+lastChange = "2023-06-21 11:59:33 +0000";
 layers = (
 {
 hints = (
@@ -113460,8 +113454,6 @@ nodes = (
 width = 1080;
 }
 );
-sortName = titl.Da07;
-subCategory = Dash;
 },
 {
 glyphname = emdash.titl;
@@ -113878,11 +113870,10 @@ width = 720;
 );
 },
 {
-category = Punctuation;
 glyphname = threequarteremdash.titl.case;
 kernLeft = hyphen;
 kernRight = hyphen;
-lastChange = "2023-06-19 11:14:23 +0000";
+lastChange = "2023-06-21 12:00:15 +0000";
 layers = (
 {
 hints = (
@@ -113977,8 +113968,6 @@ nodes = (
 width = 1080;
 }
 );
-sortName = case.titl.Da07;
-subCategory = Dash;
 },
 {
 glyphname = emdash.titl.case;
@@ -115692,7 +115681,7 @@ unicode = 93;
 },
 {
 glyphname = parenleft.titl;
-lastChange = "2023-06-16 08:58:22 +0000";
+lastChange = "2023-06-21 12:00:01 +0000";
 layers = (
 {
 background = {
@@ -115893,12 +115882,10 @@ nodes = (
 width = 480;
 }
 );
-sortName = Pa0202;
-sortNameKeep = Pa02.titl;
 },
 {
 glyphname = parenright.titl;
-lastChange = "2023-06-16 08:58:31 +0000";
+lastChange = "2023-06-21 12:00:06 +0000";
 layers = (
 {
 layerId = "3E87E8DA-1F15-4738-9454-A2AB4CEA57DC";
@@ -116076,8 +116063,6 @@ nodes = (
 width = 480;
 }
 );
-sortName = Pa0402;
-sortNameKeep = Pa04.titl;
 },
 {
 glyphname = braceleft.titl;
@@ -116935,7 +116920,7 @@ width = 480;
 },
 {
 glyphname = parenleft.dnom;
-lastChange = "2023-06-16 09:04:47 +0000";
+lastChange = "2023-06-21 11:59:22 +0000";
 layers = (
 {
 background = {
@@ -117182,9 +117167,6 @@ width = 64;
 width = 320;
 }
 );
-sortName = Pa0203;
-sortNameKeep = Pa02.dnom;
-subCategory = Parenthesis;
 userData = {
 RMXScaler = {
 source = parenleft;
@@ -117193,7 +117175,7 @@ source = parenleft;
 },
 {
 glyphname = parenright.dnom;
-lastChange = "2023-06-16 08:59:43 +0000";
+lastChange = "2023-06-21 11:59:22 +0000";
 layers = (
 {
 layerId = "3E87E8DA-1F15-4738-9454-A2AB4CEA57DC";
@@ -117344,9 +117326,6 @@ width = 64;
 width = 320;
 }
 );
-sortName = Pa0403;
-sortNameKeep = Pa04.dnom;
-subCategory = Parenthesis;
 userData = {
 RMXScaler = {
 source = parenright;
@@ -117355,7 +117334,7 @@ source = parenright;
 },
 {
 glyphname = parenleft.numr;
-lastChange = "2023-06-16 09:00:00 +0000";
+lastChange = "2023-06-21 11:59:22 +0000";
 layers = (
 {
 background = {
@@ -117602,9 +117581,6 @@ width = 64;
 width = 320;
 }
 );
-sortName = Pa0204;
-sortNameKeep = Pa02.numr;
-subCategory = Parenthesis;
 userData = {
 RMXScaler = {
 source = parenleft;
@@ -117613,7 +117589,7 @@ source = parenleft;
 },
 {
 glyphname = parenright.numr;
-lastChange = "2023-06-16 09:00:13 +0000";
+lastChange = "2023-06-21 11:59:22 +0000";
 layers = (
 {
 layerId = "3E87E8DA-1F15-4738-9454-A2AB4CEA57DC";
@@ -117764,9 +117740,6 @@ width = 64;
 width = 320;
 }
 );
-sortName = Pa0404;
-sortNameKeep = Pa04.numr;
-subCategory = Parenthesis;
 userData = {
 RMXScaler = {
 source = parenright;
@@ -117775,7 +117748,7 @@ source = parenright;
 },
 {
 glyphname = parenleft.inferior;
-lastChange = "2023-06-16 09:00:52 +0000";
+lastChange = "2023-06-21 11:59:22 +0000";
 layers = (
 {
 layerId = "3E87E8DA-1F15-4738-9454-A2AB4CEA57DC";
@@ -117834,13 +117807,11 @@ ref = parenleft.dnom;
 width = 320;
 }
 );
-sortName = Pa0205;
-sortNameKeep = Pa02.inferior;
 unicode = 8333;
 },
 {
 glyphname = parenright.inferior;
-lastChange = "2023-06-16 09:01:01 +0000";
+lastChange = "2023-06-21 11:59:22 +0000";
 layers = (
 {
 layerId = "3E87E8DA-1F15-4738-9454-A2AB4CEA57DC";
@@ -117899,13 +117870,11 @@ ref = parenright.dnom;
 width = 320;
 }
 );
-sortName = Pa0405;
-sortNameKeep = Pa04.inferior;
 unicode = 8334;
 },
 {
 glyphname = parenleft.superior;
-lastChange = "2023-06-16 09:01:11 +0000";
+lastChange = "2023-06-21 11:59:22 +0000";
 layers = (
 {
 layerId = "3E87E8DA-1F15-4738-9454-A2AB4CEA57DC";
@@ -117964,13 +117933,11 @@ ref = parenleft.numr;
 width = 320;
 }
 );
-sortName = Pa0206;
-sortNameKeep = Pa02.superior;
 unicode = 8317;
 },
 {
 glyphname = parenright.superior;
-lastChange = "2023-06-16 09:01:19 +0000";
+lastChange = "2023-06-21 11:59:22 +0000";
 layers = (
 {
 layerId = "3E87E8DA-1F15-4738-9454-A2AB4CEA57DC";
@@ -118029,8 +117996,6 @@ ref = parenright.numr;
 width = 320;
 }
 );
-sortName = Pa0406;
-sortNameKeep = Pa04.superior;
 unicode = 8318;
 },
 {
@@ -183561,7 +183526,7 @@ value = "https://www.dicotype.com";
 },
 {
 key = versionString;
-value = "Version 1.000; Beta; Release 3; Build 24";
+value = "Version 1.000; Beta; Release 3; Build 25";
 },
 {
 key = licenses;
