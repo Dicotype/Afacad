@@ -1,7 +1,7 @@
 # Afacad
 ![Afacad Blueprint](https://github.com/Dicotype/Afacad/blob/main/documents/afacad_01_promo.png)
 
-The ‘Afacad typeface project’ started in 2017 as a custom lettering project for the Swedish housing tenant Slagskeppet, who wanted new house address plaques for their entrances. The alphabet and numerals were designed to conform to the architectural proportions and materials used by the Architect Sture Elmén in the 1940s. The bespoke letters are cut out of thick steel and powder lacquered for long-lasting durability.
+The ‘Afacad typeface project’ started in 2017 as a custom lettering project for the Swedish housing tenant Slagskeppet, who wanted new house address numbering for their entrances. The alphabet and numerals were designed to conform to the architectural proportions and materials used by the Architect Sture Elmén in the 1940s. The bespoke letters are cut out of thick steel and powder lacquered for long-lasting durability.
 
 Additional weights and extended language support provide a functional typeface family suitable for industrial and commercial usage.
 
