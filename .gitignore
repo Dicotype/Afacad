@@ -8,6 +8,7 @@ psd
 source backup
 source/afm
 source/afm backup
+source/bitmap
 source/fontlab
 source/glyphs/backslanted
 source/glyphs/stencil
