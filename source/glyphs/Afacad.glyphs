@@ -183495,7 +183495,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2021 The Facade Project Authors (https://github.com/Dicotype/Facade)";
+value = "Copyright 2023 The Afacad Project Authors (https://github.com/Dicotype/Afacade)";
 }
 );
 },
