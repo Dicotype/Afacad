@@ -1,0 +1,40 @@
+sources:
+  - Afacad.glyphs
+familyName: Afacad
+# version: 1.100
+axisOrder:
+  - ital
+  - wght
+stat:
+  Afacad[ital,wght].ttf:
+  - name: Weight
+    tag: wght
+    values:
+    - name: Thin
+      value: 100
+    - name: ExtraLight
+      value: 200
+    - name: Light
+      value: 300
+    - name: Regular
+      value: 400
+      flags: 2
+    - name: Medium
+      value: 500
+    - name: SemiBold
+      value: 600
+    - name: Bold
+      value: 700
+  - name: Italic
+    tag: ital
+    values:
+    - name: Roman
+      value: 200
+      linkedValue: 1
+      flags: 2
+    - name: Italic
+      value: 400
+outputDir: "../../fonts/Afacad 1.100"
+buildTTF: true
+buildOTF: true
+autohintTTF: true

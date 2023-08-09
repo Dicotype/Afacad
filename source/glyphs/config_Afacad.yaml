@@ -1,7 +1,7 @@
 sources:
   - Afacad.glyphs
 familyName: Afacad
-# version: 1.000
+version: 1.000
 axisOrder:
   - ital
   - wght
@@ -23,11 +23,11 @@ stat:
     tag: ital
     values:
     - name: Roman
-      value: 90
+      value: 200
       linkedValue: 1
       flags: 2
     - name: Italic
-      value: 104
+      value: 400
 outputDir: "../../fonts/Afacad"
 buildTTF: true
 buildOTF: true
