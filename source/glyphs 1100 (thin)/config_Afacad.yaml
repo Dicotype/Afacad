@@ -34,7 +34,7 @@ stat:
       flags: 2
     - name: Italic
       value: 400
-outputDir: "../../fonts/Afacad 1.100"
+outputDir: "../../fonts/Afacad 1100"
 buildTTF: true
 buildOTF: true
 autohintTTF: true
