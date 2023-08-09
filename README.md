@@ -12,6 +12,3 @@ The Afacad project is led by Kristian Möller, a type designer based in Stockhol
 ![Afacad Master Weights](https://github.com/Dicotype/Afacad/blob/main/documents/afacad_02_promo.png)
 ![Afacad Lacquered Number Twelve](https://github.com/Dicotype/Afacad/blob/main/documents/afacad_03_kapitael.png)
 ![Afacad Lacquered Numerals](https://github.com/Dicotype/Afacad/blob/main/documents/afacad_04_promo.png)
-
-
-
