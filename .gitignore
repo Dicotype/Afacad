@@ -12,7 +12,6 @@ source backup
 source/afm
 source/afm backup
 source/bitmap
-source/fontlab
 source/glyphs 1100 (thin)
 source/glyphs 1200 (black)
 source/glyphs 2000 (backslanted)
