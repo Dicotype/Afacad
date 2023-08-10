@@ -17,6 +17,6 @@ The Afacad project is led by Kristian Möller, a type designer based in Stockhol
 
 ![Afacad Lacquered Numerals](https://github.com/Dicotype/Afacad/blob/main/documents/afacad_05_promo.png)
 
-Have an old Macintosh 68K or PPC with ATM installed? Than your in for a treat! In order to highlight Adobes retirement of Type 1 earlier this year, Afacad comes with both static and Multiple Master PostScript fonts, and as an extra bonus Fontlab 4 source files!
+Have an old Macintosh 68K or PPC with ATM installed? Then you’re in for a treat! To highlight Adobe’s retirement of Type 1 earlier this year, Afacad comes with static and Multiple Master PostScript fonts and, as a bonus, FontLab 4 source files!
 
 
