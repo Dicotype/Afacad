@@ -1,8 +1,8 @@
     sources:
       - Afacad.glyphs
     axisOrder:
-      - slnt
       - wght
+      - slnt
     familyName: Afacad
     stat:
       Afacad[slnt,wght].ttf:
@@ -25,3 +25,11 @@
           value: 600
         - name: Bold
           value: 700
+      - name: Slant
+        tag: slnt
+        values:
+        - name: Default
+          value: 0
+          flags: 2
+        - name: Oblique
+          value: -14
