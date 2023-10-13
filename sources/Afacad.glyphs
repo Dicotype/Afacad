@@ -1348,7 +1348,6 @@ code = "sub colon by colon.case;
 sub semicolon by semicolon.case;
 sub periodcentered.loclCAT by periodcentered.loclCAT.case;
 sub hyphen by hyphen.case;
-sub softhyphen by softhyphen.case;
 sub endash by endash.case;
 sub emdash by emdash.case;
 sub hyphentwo by hyphentwo.case;
@@ -1406,8 +1405,9 @@ sub zero.lf.ss01 by zero.lf.zero.ss01;
 tag = zero;
 },
 {
-code = "sub @Uppercase [colon semicolon hyphen softhyphen endash emdash hyphentwo guillemetleft guillemetright guilsinglleft guilsinglright]' @Uppercase by [colon.case semicolon.case hyphen.case softhyphen.case endash.case emdash.case hyphentwo.case guillemetleft.case guillemetright.case guilsinglleft.case guilsinglright.case];
-sub @Numerals [colon semicolon hyphen softhyphen endash emdash hyphentwo guillemetleft guillemetright guilsinglleft guilsinglright]' @Numerals by [colon.case semicolon.case hyphen.case softhyphen.case endash.case emdash.case hyphentwo.case guillemetleft.case guillemetright.case guilsinglleft.case guilsinglright.case];";
+code = "sub @Uppercase [colon semicolon hyphen endash emdash hyphentwo guillemetleft guillemetright guilsinglleft guilsinglright]' @Uppercase by [colon.case semicolon.case hyphen.case endash.case emdash.case hyphentwo.case guillemetleft.case guillemetright.case guilsinglleft.case guilsinglright.case];
+sub @Numerals [colon semicolon hyphen endash emdash hyphentwo guillemetleft guillemetright guilsinglleft guilsinglright]' @Numerals by [colon.case semicolon.case hyphen.case endash.case emdash.case hyphentwo.case guillemetleft.case guillemetright.case guilsinglleft.case guilsinglright.case];
+";
 tag = calt;
 },
 {
@@ -1941,7 +1941,7 @@ pos = -300;
 {
 }
 );
-name = "Italic Bold";
+name = "Bold Italic";
 stemValues = (
 102,
 114
