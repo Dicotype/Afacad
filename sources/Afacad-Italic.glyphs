@@ -996,6 +996,10 @@ tildecomb_macroncomb,
 tildecomb.case,
 apple
 );
+},
+{
+name = "Variable Font Origin";
+value = "DB28B65E-4CBC-4F12-8216-7B4F2F083639";
 }
 );
 date = "2023-07-30 13:26:32 +0000";
@@ -1549,15 +1553,6 @@ value = -360;
 {
 name = "Master Icon Glyph Name";
 value = a;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 400;
-}
-);
 }
 );
 guides = (
@@ -1601,6 +1596,7 @@ over = -20;
 pos = -300;
 },
 {
+pos = 14;
 }
 );
 name = Italic;
@@ -1669,15 +1665,6 @@ value = -360;
 {
 name = "Master Icon Glyph Name";
 value = a;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 700;
-}
-);
 }
 );
 guides = (
@@ -1722,6 +1709,7 @@ over = -20;
 pos = -300;
 },
 {
+pos = 14;
 }
 );
 name = "Bold Italic";
@@ -93415,6 +93403,7 @@ axesValues = (
 instanceInterpolations = {
 "DB28B65E-4CBC-4F12-8216-7B4F2F083639" = 1;
 };
+linkStyle = Regular;
 name = Italic;
 },
 {
@@ -93425,6 +93414,8 @@ instanceInterpolations = {
 "5ACC057E-9D2C-45A0-8610-B9302B4AC058" = 0.5;
 "DB28B65E-4CBC-4F12-8216-7B4F2F083639" = 0.5;
 };
+isItalic = 1;
+linkStyle = Medium;
 name = "Medium Italic";
 weightClass = 500;
 },
@@ -93436,6 +93427,8 @@ instanceInterpolations = {
 "5ACC057E-9D2C-45A0-8610-B9302B4AC058" = 0.75;
 "DB28B65E-4CBC-4F12-8216-7B4F2F083639" = 0.25;
 };
+isItalic = 1;
+linkStyle = SemiBold;
 name = "SemiBold Italic";
 weightClass = 600;
 },
@@ -93447,7 +93440,7 @@ instanceInterpolations = {
 "5ACC057E-9D2C-45A0-8610-B9302B4AC058" = 1;
 };
 isBold = 1;
-linkStyle = Regular;
+isItalic = 1;
 name = "Bold Italic";
 weightClass = 700;
 }
@@ -94612,10 +94605,6 @@ value = Dicotype;
 {
 key = manufacturerURL;
 value = "https://www.dicotype.com";
-},
-{
-key = versionString;
-value = "Version 1.000";
 },
 {
 key = licenses;

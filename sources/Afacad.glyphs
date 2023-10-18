@@ -1549,15 +1549,6 @@ value = -360;
 {
 name = "Master Icon Glyph Name";
 value = a;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 400;
-}
-);
 }
 );
 id = "3E87E8DA-1F15-4738-9454-A2AB4CEA57DC";
@@ -1650,15 +1641,6 @@ value = -360;
 {
 name = "Master Icon Glyph Name";
 value = a;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 700;
-}
-);
 }
 );
 iconName = Bold;
