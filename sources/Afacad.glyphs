@@ -100414,9 +100414,9 @@ two.lf = -10;
 "@MMK_R_u" = -120;
 "@MMK_R_v" = -120;
 "@MMK_R_x" = -90;
-itilde = 45;
 ibreve = 45;
 idieresis = 30;
+itilde = 45;
 };
 "@MMK_L_Uhorn" = {
 "@MMK_R_C" = -90;
@@ -100845,7 +100845,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2023 The Afacad Project Authors (https://github.com/Dicotype/Afacade)";
+value = "Copyright 2023 The Afacad Project Authors (https://github.com/Dicotype/Afacad)";
 }
 );
 },

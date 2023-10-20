@@ -94642,7 +94642,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2023 The Afacad Project Authors (https://github.com/Dicotype/Afacade)";
+value = "Copyright 2023 The Afacad Project Authors (https://github.com/Dicotype/Afacad)";
 }
 );
 },
