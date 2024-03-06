@@ -27,6 +27,12 @@
           value: 600
         - name: Bold
           value: 700
+        - name: ExtraBold
+          value: 800
+        - name: Black
+          value: 900
+        - name: Super
+          value: 1000
       - name: Italic
         tag: ital
         values:
@@ -54,6 +60,12 @@
           value: 600
         - name: Bold
           value: 700
+        - name: ExtraBold
+          value: 800
+        - name: Black
+          value: 900
+        - name: Super
+          value: 1000
       - name: Italic
         tag: ital
         values:
@@ -79,6 +91,12 @@
           value: 600
         - name: Bold
           value: 700
+        - name: ExtraBold
+          value: 800
+        - name: Black
+          value: 900
+        - name: Super
+          value: 1000
       - name: Italic
         tag: ital
         values:
