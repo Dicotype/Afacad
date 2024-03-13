@@ -1,6 +1,7 @@
     sources:
       - Afacad.glyphs
       - Afacad-Italic.glyphs
+      - Afacad-Backslant.glyphs
     axisOrder:
       - wght
       - ital
@@ -10,6 +11,12 @@
       - name: Weight
         tag: wght
         values:
+        - name: Thin
+          value: 100
+        - name: ExtraLight
+          value: 200
+        - name: Light
+          value: 300
         - name: Regular
           value: 400
           linkedValue: 700
@@ -20,6 +27,12 @@
           value: 600
         - name: Bold
           value: 700
+        - name: ExtraBold
+          value: 800
+        - name: Black
+          value: 900
+        - name: Super
+          value: 1000
       - name: Italic
         tag: ital
         values:
@@ -31,6 +44,12 @@
       - name: Weight
         tag: wght
         values:
+        - name: Thin
+          value: 100
+        - name: ExtraLight
+          value: 200
+        - name: Light
+          value: 300
         - name: Regular
           value: 400
           linkedValue: 700
@@ -41,8 +60,47 @@
           value: 600
         - name: Bold
           value: 700
+        - name: ExtraBold
+          value: 800
+        - name: Black
+          value: 900
+        - name: Super
+          value: 1000
       - name: Italic
         tag: ital
         values:
         - name: Italic
           value: 1
+      Afacad-Backslant[wght].ttf:
+      - name: Weight
+        tag: wght
+        values:
+        - name: Thin
+          value: 100
+        - name: ExtraLight
+          value: 200
+        - name: Light
+          value: 300
+        - name: Regular
+          value: 400
+          linkedValue: 700
+          flags: 2
+        - name: Medium
+          value: 500
+        - name: SemiBold
+          value: 600
+        - name: Bold
+          value: 700
+        - name: ExtraBold
+          value: 800
+        - name: Black
+          value: 900
+        - name: Super
+          value: 1000
+      - name: Italic
+        tag: ital
+        values:
+        - name: Backslant
+          value: 0
+          linkedValue: 0
+          flags: 2
