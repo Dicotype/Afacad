@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="blackBullet" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="300" y="126" type="curve" smooth="yes"/>
+      <point x="431" y="126"/>
+      <point x="534" y="232"/>
+      <point x="534" y="360" type="curve" smooth="yes"/>
+      <point x="534" y="488"/>
+      <point x="431" y="594"/>
+      <point x="300" y="594" type="curve" smooth="yes"/>
+      <point x="169" y="594"/>
+      <point x="66" y="488"/>
+      <point x="66" y="360" type="curve" smooth="yes"/>
+      <point x="66" y="232"/>
+      <point x="169" y="126"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Geometry</string>
+    </dict>
+  </lib>
+</glyph>

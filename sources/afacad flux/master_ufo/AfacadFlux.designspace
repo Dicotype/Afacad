@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <axes>
+    <axis tag="slnt" name="Slant" minimum="-14" maximum="14" default="0"/>
+    <axis tag="wght" name="Weight" minimum="100" maximum="1000" default="400">
+      <map input="100" output="60"/>
+      <map input="200" output="75"/>
+      <map input="300" output="90"/>
+      <map input="400" output="120"/>
+      <map input="500" output="150"/>
+      <map input="600" output="165"/>
+      <map input="700" output="180"/>
+      <map input="800" output="210"/>
+      <map input="900" output="225"/>
+      <map input="1000" output="240"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="AfacadFlux-ThinBackslant.ufo" name="Afacad Flux Thin Backslant" familyname="Afacad Flux" stylename="Thin Backslant">
+      <location>
+        <dimension name="Slant" xvalue="-14"/>
+        <dimension name="Weight" xvalue="60"/>
+      </location>
+    </source>
+    <source filename="AfacadFlux-Backslant.ufo" name="Afacad Flux Backslant" familyname="Afacad Flux" stylename="Backslant">
+      <location>
+        <dimension name="Slant" xvalue="-14"/>
+        <dimension name="Weight" xvalue="120"/>
+      </location>
+    </source>
+    <source filename="AfacadFlux-BoldBackslant.ufo" name="Afacad Flux Bold Backslant" familyname="Afacad Flux" stylename="Bold Backslant">
+      <location>
+        <dimension name="Slant" xvalue="-14"/>
+        <dimension name="Weight" xvalue="180"/>
+      </location>
+    </source>
+    <source filename="AfacadFlux-SuperBackslant.ufo" name="Afacad Flux Super Backslant" familyname="Afacad Flux" stylename="Super Backslant">
+      <location>
+        <dimension name="Slant" xvalue="-14"/>
+        <dimension name="Weight" xvalue="240"/>
+      </location>
+    </source>
+    <source filename="AfacadFlux-Thin.ufo" name="Afacad Flux Thin" familyname="Afacad Flux" stylename="Thin">
+      <location>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Weight" xvalue="60"/>
+      </location>
+    </source>
+    <source filename="AfacadFlux-Regular.ufo" name="Afacad Flux Regular" familyname="Afacad Flux" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Weight" xvalue="120"/>
+      </location>
+    </source>
+    <source filename="AfacadFlux-Bold.ufo" name="Afacad Flux Bold" familyname="Afacad Flux" stylename="Bold">
+      <location>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Weight" xvalue="180"/>
+      </location>
+    </source>
+    <source filename="AfacadFlux-Super.ufo" name="Afacad Flux Super" familyname="Afacad Flux" stylename="Super">
+      <location>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Weight" xvalue="240"/>
+      </location>
+    </source>
+    <source filename="AfacadFlux-ThinItalic.ufo" name="Afacad Flux Thin Italic" familyname="Afacad Flux" stylename="Thin Italic">
+      <location>
+        <dimension name="Slant" xvalue="14"/>
+        <dimension name="Weight" xvalue="60"/>
+      </location>
+    </source>
+    <source filename="AfacadFlux-Italic.ufo" name="Afacad Flux Italic" familyname="Afacad Flux" stylename="Italic">
+      <location>
+        <dimension name="Slant" xvalue="14"/>
+        <dimension name="Weight" xvalue="120"/>
+      </location>
+    </source>
+    <source filename="AfacadFlux-BoldItalic.ufo" name="Afacad Flux Bold Italic" familyname="Afacad Flux" stylename="Bold Italic">
+      <location>
+        <dimension name="Slant" xvalue="14"/>
+        <dimension name="Weight" xvalue="180"/>
+      </location>
+    </source>
+    <source filename="AfacadFlux-SuperItalic.ufo" name="Afacad Flux Super Italic" familyname="Afacad Flux" stylename="Super Italic">
+      <location>
+        <dimension name="Slant" xvalue="14"/>
+        <dimension name="Weight" xvalue="240"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Afacad Flux Thin Backslant" familyname="Afacad Flux" stylename="Thin Backslant" filename="../instance_ufo/AfacadFlux-ThinBackslant.ufo" stylemapfamilyname="Afacad Flux Thin Backslant" stylemapstylename="regular">
+      <location>
+        <dimension name="Slant" xvalue="-14"/>
+        <dimension name="Weight" xvalue="60"/>
+      </location>
+    </instance>
+    <instance name="Afacad Flux ExtraLight Backslant" familyname="Afacad Flux" stylename="ExtraLight Backslant" filename="../instance_ufo/AfacadFlux-ExtraLightBackslant.ufo" stylemapfamilyname="Afacad Flux ExtraLight Backslant" stylemapstylename="regular">
+      <location>
+        <dimension name="Slant" xvalue="-14"/>
+        <dimension name="Weight" xvalue="75"/>
+      </location>
+    </instance>
+    <instance name="Afacad Flux Light Backslant" familyname="Afacad Flux" stylename="Light Backslant" filename="../instance_ufo/AfacadFlux-LightBackslant.ufo" stylemapfamilyname="Afacad Flux Light Backslant" stylemapstylename="regular">
+      <location>
+        <dimension name="Slant" xvalue="-14"/>
+        <dimension name="Weight" xvalue="90"/>
+      </location>
+    </instance>
+    <instance name="Afacad Flux Backslant" familyname="Afacad Flux" stylename="Backslant" filename="../instance_ufo/AfacadFlux-Backslant.ufo" stylemapfamilyname="Afacad Flux Backslant" stylemapstylename="regular">
+      <location>
+        <dimension name="Slant" xvalue="-14"/>
+        <dimension name="Weight" xvalue="120"/>
+      </location>
+    </instance>
+    <instance name="Afacad Flux Medium Backslant" familyname="Afacad Flux" stylename="Medium Backslant" filename="../instance_ufo/AfacadFlux-MediumBackslant.ufo" stylemapfamilyname="Afacad Flux Medium Backslant" stylemapstylename="regular">
+      <location>
+        <dimension name="Slant" xvalue="-14"/>
+        <dimension name="Weight" xvalue="150"/>
+      </location>
+    </instance>
+    <instance name="Afacad Flux SemiBold Backslant" familyname="Afacad Flux" stylename="SemiBold Backslant" filename="../instance_ufo/AfacadFlux-SemiBoldBackslant.ufo" stylemapfamilyname="Afacad Flux SemiBold Backslant" stylemapstylename="regular">
+      <location>
+        <dimension name="Slant" xvalue="-14"/>
+        <dimension name="Weight" xvalue="165"/>
+      </location>
+    </instance>
+    <instance name="Afacad Flux Bold Backslant" familyname="Afacad Flux" stylename="Bold Backslant" filename="../instance_ufo/AfacadFlux-BoldBackslant.ufo" stylemapfamilyname="Afacad Flux Bold Backslant" stylemapstylename="regular">
+      <location>
+        <dimension name="Slant" xvalue="-14"/>
+        <dimension name="Weight" xvalue="180"/>
+      </location>
+    </instance>
+    <instance name="Afacad Flux ExtraBold Backslant" familyname="Afacad Flux" stylename="ExtraBold Backslant" filename="../instance_ufo/AfacadFlux-ExtraBoldBackslant.ufo" stylemapfamilyname="Afacad Flux ExtraBold Backslant" stylemapstylename="regular">
+      <location>
+        <dimension name="Slant" xvalue="-14"/>
+        <dimension name="Weight" xvalue="210"/>
+      </location>
+    </instance>
+    <instance name="Afacad Flux Black Backslant" familyname="Afacad Flux" stylename="Black Backslant" filename="../instance_ufo/AfacadFlux-BlackBackslant.ufo" stylemapfamilyname="Afacad Flux Black Backslant" stylemapstylename="regular">
+      <location>
+        <dimension name="Slant" xvalue="-14"/>
+        <dimension name="Weight" xvalue="225"/>
+      </location>
+    </instance>
+    <instance name="Afacad Flux Super Backslant" familyname="Afacad Flux" stylename="Super Backslant" filename="../instance_ufo/AfacadFlux-SuperBackslant.ufo" stylemapfamilyname="Afacad Flux Super Backslant" stylemapstylename="regular">
+      <location>
+        <dimension name="Slant" xvalue="-14"/>
+        <dimension name="Weight" xvalue="240"/>
+      </location>
+    </instance>
+    <instance name="Afacad Flux Thin" familyname="Afacad Flux" stylename="Thin" filename="../instance_ufo/AfacadFlux-Thin.ufo" stylemapfamilyname="Afacad Flux Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Weight" xvalue="60"/>
+      </location>
+    </instance>
+    <instance name="Afacad Flux ExtraLight" familyname="Afacad Flux" stylename="ExtraLight" filename="../instance_ufo/AfacadFlux-ExtraLight.ufo" stylemapfamilyname="Afacad Flux ExtraLight" stylemapstylename="regular">
+      <location>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Weight" xvalue="75"/>
+      </location>
+    </instance>
+    <instance name="Afacad Flux Light" familyname="Afacad Flux" stylename="Light" filename="../instance_ufo/AfacadFlux-Light.ufo" stylemapfamilyname="Afacad Flux Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Weight" xvalue="90"/>
+      </location>
+    </instance>
+    <instance name="Afacad Flux Regular" familyname="Afacad Flux" stylename="Regular" filename="../instance_ufo/AfacadFlux-Regular.ufo" stylemapfamilyname="Afacad Flux" stylemapstylename="regular">
+      <location>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Weight" xvalue="120"/>
+      </location>
+    </instance>
+    <instance name="Afacad Flux Medium" familyname="Afacad Flux" stylename="Medium" filename="../instance_ufo/AfacadFlux-Medium.ufo" stylemapfamilyname="Afacad Flux Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Weight" xvalue="150"/>
+      </location>
+    </instance>
+    <instance name="Afacad Flux SemiBold" familyname="Afacad Flux" stylename="SemiBold" filename="../instance_ufo/AfacadFlux-SemiBold.ufo" stylemapfamilyname="Afacad Flux SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Weight" xvalue="165"/>
+      </location>
+    </instance>
+    <instance name="Afacad Flux Bold" familyname="Afacad Flux" stylename="Bold" filename="../instance_ufo/AfacadFlux-Bold.ufo" stylemapfamilyname="Afacad Flux Bold" stylemapstylename="regular">
+      <location>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Weight" xvalue="180"/>
+      </location>
+    </instance>
+    <instance name="Afacad Flux ExtraBold" familyname="Afacad Flux" stylename="ExtraBold" filename="../instance_ufo/AfacadFlux-ExtraBold.ufo" stylemapfamilyname="Afacad Flux ExtraBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Weight" xvalue="210"/>
+      </location>
+    </instance>
+    <instance name="Afacad Flux Black" familyname="Afacad Flux" stylename="Black" filename="../instance_ufo/AfacadFlux-Black.ufo" stylemapfamilyname="Afacad Flux Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Weight" xvalue="225"/>
+      </location>
+    </instance>
+    <instance name="Afacad Flux Super" familyname="Afacad Flux" stylename="Super" filename="../instance_ufo/AfacadFlux-Super.ufo" stylemapfamilyname="Afacad Flux Super" stylemapstylename="regular">
+      <location>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Weight" xvalue="240"/>
+      </location>
+    </instance>
+    <instance name="Afacad Flux Thin Slant" familyname="Afacad Flux" stylename="Thin Slant" filename="../instance_ufo/AfacadFlux-ThinSlant.ufo" stylemapfamilyname="Afacad Flux Thin Slant" stylemapstylename="regular">
+      <location>
+        <dimension name="Slant" xvalue="14"/>
+        <dimension name="Weight" xvalue="60"/>
+      </location>
+    </instance>
+    <instance name="Afacad Flux ExtraLight Slant" familyname="Afacad Flux" stylename="ExtraLight Slant" filename="../instance_ufo/AfacadFlux-ExtraLightSlant.ufo" stylemapfamilyname="Afacad Flux ExtraLight Slant" stylemapstylename="regular">
+      <location>
+        <dimension name="Slant" xvalue="14"/>
+        <dimension name="Weight" xvalue="75"/>
+      </location>
+    </instance>
+    <instance name="Afacad Flux Light Slant" familyname="Afacad Flux" stylename="Light Slant" filename="../instance_ufo/AfacadFlux-LightSlant.ufo" stylemapfamilyname="Afacad Flux Light Slant" stylemapstylename="regular">
+      <location>
+        <dimension name="Slant" xvalue="14"/>
+        <dimension name="Weight" xvalue="90"/>
+      </location>
+    </instance>
+    <instance name="Afacad Flux Regular Slant" familyname="Afacad Flux" stylename="Regular Slant" filename="../instance_ufo/AfacadFlux-RegularSlant.ufo" stylemapfamilyname="Afacad Flux Slant" stylemapstylename="regular">
+      <location>
+        <dimension name="Slant" xvalue="14"/>
+        <dimension name="Weight" xvalue="120"/>
+      </location>
+    </instance>
+    <instance name="Afacad Flux Medium Slant" familyname="Afacad Flux" stylename="Medium Slant" filename="../instance_ufo/AfacadFlux-MediumSlant.ufo" stylemapfamilyname="Afacad Flux Medium Slant" stylemapstylename="regular">
+      <location>
+        <dimension name="Slant" xvalue="14"/>
+        <dimension name="Weight" xvalue="150"/>
+      </location>
+    </instance>
+    <instance name="Afacad Flux SemiBold Slant" familyname="Afacad Flux" stylename="SemiBold Slant" filename="../instance_ufo/AfacadFlux-SemiBoldSlant.ufo" stylemapfamilyname="Afacad Flux SemiBold Slant" stylemapstylename="regular">
+      <location>
+        <dimension name="Slant" xvalue="14"/>
+        <dimension name="Weight" xvalue="165"/>
+      </location>
+    </instance>
+    <instance name="Afacad Flux Bold Slant" familyname="Afacad Flux" stylename="Bold Slant" filename="../instance_ufo/AfacadFlux-BoldSlant.ufo" stylemapfamilyname="Afacad Flux Bold Slant" stylemapstylename="regular">
+      <location>
+        <dimension name="Slant" xvalue="14"/>
+        <dimension name="Weight" xvalue="180"/>
+      </location>
+    </instance>
+    <instance name="Afacad Flux ExtraBold Slant" familyname="Afacad Flux" stylename="ExtraBold Slant" filename="../instance_ufo/AfacadFlux-ExtraBoldSlant.ufo" stylemapfamilyname="Afacad Flux ExtraBold Slant" stylemapstylename="regular">
+      <location>
+        <dimension name="Slant" xvalue="14"/>
+        <dimension name="Weight" xvalue="210"/>
+      </location>
+    </instance>
+    <instance name="Afacad Flux Black Slant" familyname="Afacad Flux" stylename="Black Slant" filename="../instance_ufo/AfacadFlux-BlackSlant.ufo" stylemapfamilyname="Afacad Flux Black Slant" stylemapstylename="regular">
+      <location>
+        <dimension name="Slant" xvalue="14"/>
+        <dimension name="Weight" xvalue="225"/>
+      </location>
+    </instance>
+    <instance name="Afacad Flux Super Slant" familyname="Afacad Flux" stylename="Super Slant" filename="../instance_ufo/AfacadFlux-SuperSlant.ufo" stylemapfamilyname="Afacad Flux Super Slant" stylemapstylename="regular">
+      <location>
+        <dimension name="Slant" xvalue="14"/>
+        <dimension name="Weight" xvalue="240"/>
+      </location>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>GSDimensionPlugin.Dimensions</key>
+      <dict>
+        <key>B977CE4C-934E-467C-B314-DC00122BBDE0</key>
+        <dict>
+          <key>HH</key>
+          <string>40</string>
+          <key>HV</key>
+          <string>44</string>
+          <key>OH</key>
+          <string>42</string>
+          <key>OV</key>
+          <string>46</string>
+          <key>nV</key>
+          <string>42</string>
+          <key>oH</key>
+          <string>40</string>
+          <key>oV</key>
+          <string>42</string>
+          <key>tH</key>
+          <string>36</string>
+        </dict>
+        <key>FCF05EF6-3D3F-478B-BA59-24992C4C44E9</key>
+        <dict>
+          <key>oH</key>
+          <string>44</string>
+        </dict>
+      </dict>
+      <key>com.github.googlei18n.ufo2ft.featureWriters</key>
+      <array>
+        <dict>
+          <key>class</key>
+          <string>KernFeatureWriter</string>
+          <key>options</key>
+          <dict>
+            <key>mode</key>
+            <string>append</string>
+          </dict>
+        </dict>
+        <dict>
+          <key>class</key>
+          <string>MarkFeatureWriter</string>
+          <key>options</key>
+          <dict>
+            <key>mode</key>
+            <string>skip</string>
+          </dict>
+        </dict>
+      </array>
+      <key>public.skipExportGlyphs</key>
+      <array>
+        <string>A.ring</string>
+        <string>G.stroke</string>
+        <string>H.bar</string>
+        <string>idotless.ogonek</string>
+        <string>ogonekcomb.A</string>
+        <string>ogonekcomb.I</string>
+        <string>ogonekcomb.a</string>
+        <string>ogonekcomb.i</string>
+        <string>ogonekcomb.u</string>
+        <string>slashlongcomb</string>
+        <string>slashlongcomb.case</string>
+        <string>slashshortcomb</string>
+        <string>slashshortcomb.case</string>
+        <string>strokeshortcomb.G</string>
+        <string>strokeshortcomb.T</string>
+        <string>strokeshortcomb.g</string>
+        <string>strokeshortcomb.h</string>
+        <string>strokeshortcomb.t</string>
+      </array>
+    </dict>
+  </lib>
+</designspace>

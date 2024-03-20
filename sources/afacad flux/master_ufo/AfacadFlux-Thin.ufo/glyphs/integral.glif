@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="integral" format="2">
+  <advance width="600"/>
+  <unicode hex="222B"/>
+  <outline>
+    <contour>
+      <point x="146" y="-192" type="curve" smooth="yes"/>
+      <point x="248" y="-192"/>
+      <point x="321" y="-108"/>
+      <point x="321" y="9" type="curve" smooth="yes"/>
+      <point x="321" y="767" type="line" smooth="yes"/>
+      <point x="321" y="870"/>
+      <point x="372" y="934"/>
+      <point x="453" y="934" type="curve" smooth="yes"/>
+      <point x="489" y="934"/>
+      <point x="520" y="922"/>
+      <point x="554" y="895" type="curve"/>
+      <point x="565" y="936" type="line"/>
+      <point x="533" y="959"/>
+      <point x="493" y="972"/>
+      <point x="454" y="972" type="curve" smooth="yes"/>
+      <point x="352" y="972"/>
+      <point x="279" y="888"/>
+      <point x="279" y="771" type="curve" smooth="yes"/>
+      <point x="279" y="13" type="line" smooth="yes"/>
+      <point x="279" y="-90"/>
+      <point x="228" y="-154"/>
+      <point x="147" y="-154" type="curve" smooth="yes"/>
+      <point x="111" y="-154"/>
+      <point x="80" y="-142"/>
+      <point x="46" y="-115" type="curve"/>
+      <point x="35" y="-156" type="line"/>
+      <point x="67" y="-179"/>
+      <point x="107" y="-192"/>
+    </contour>
+  </outline>
+</glyph>

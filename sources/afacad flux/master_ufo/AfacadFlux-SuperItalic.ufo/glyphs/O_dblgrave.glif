@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Odblgrave" format="2">
+  <advance width="1040"/>
+  <unicode hex="020C"/>
+  <anchor x="445" y="0" name="bottom"/>
+  <anchor x="557" y="450" name="center"/>
+  <anchor x="507" y="0" name="ogonek"/>
+  <anchor x="637" y="1182" name="top"/>
+  <anchor x="557" y="450" name="top-vertical"/>
+  <anchor x="199" y="900" name="topleft"/>
+  <anchor x="1139" y="900" name="topright"/>
+  <outline>
+    <component base="O"/>
+    <component base="dblgravecomb" xOffset="166" yOffset="270"/>
+  </outline>
+</glyph>

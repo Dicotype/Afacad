@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotbelowcomb.case" format="2">
+  <anchor x="360" y="0" name="_bottom"/>
+  <anchor x="360" y="-276" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="360" y="-276" type="curve" smooth="yes"/>
+      <point x="413" y="-276"/>
+      <point x="456" y="-234"/>
+      <point x="456" y="-180" type="curve" smooth="yes"/>
+      <point x="456" y="-127"/>
+      <point x="413" y="-84"/>
+      <point x="360" y="-84" type="curve" smooth="yes"/>
+      <point x="306" y="-84"/>
+      <point x="264" y="-127"/>
+      <point x="264" y="-180" type="curve" smooth="yes"/>
+      <point x="264" y="-234"/>
+      <point x="306" y="-276"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>720</integer>
+    </dict>
+  </lib>
+</glyph>

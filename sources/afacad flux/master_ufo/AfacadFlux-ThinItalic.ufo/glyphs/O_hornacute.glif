@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ohornacute" format="2">
+  <advance width="1040"/>
+  <unicode hex="1EDA"/>
+  <anchor x="445" y="0" name="bottom"/>
+  <anchor x="887" y="1158" name="top"/>
+  <outline>
+    <component base="Ohorn"/>
+    <component base="acutecomb.case" xOffset="245"/>
+  </outline>
+</glyph>

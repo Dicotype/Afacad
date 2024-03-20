@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="el.numr" format="2">
+  <advance width="480"/>
+  <outline>
+    <contour>
+      <point x="119" y="420" type="line"/>
+      <point x="384" y="420" type="line"/>
+      <point x="384" y="456" type="line"/>
+      <point x="179" y="456" type="line"/>
+      <point x="290" y="656" type="line"/>
+      <point x="288" y="658" type="line"/>
+      <point x="281" y="654"/>
+      <point x="270" y="653"/>
+      <point x="259" y="653" type="curve" smooth="yes"/>
+      <point x="200" y="653"/>
+      <point x="152" y="696"/>
+      <point x="152" y="758" type="curve" smooth="yes"/>
+      <point x="152" y="821"/>
+      <point x="203" y="870"/>
+      <point x="264" y="870" type="curve" smooth="yes"/>
+      <point x="311" y="870"/>
+      <point x="352" y="840"/>
+      <point x="367" y="798" type="curve"/>
+      <point x="390" y="842" type="line"/>
+      <point x="362" y="882"/>
+      <point x="316" y="906"/>
+      <point x="265" y="906" type="curve" smooth="yes"/>
+      <point x="182" y="906"/>
+      <point x="114" y="842"/>
+      <point x="114" y="758" type="curve" smooth="yes"/>
+      <point x="114" y="685"/>
+      <point x="166" y="630"/>
+      <point x="232" y="620" type="curve"/>
+      <point x="119" y="422" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Number</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fraction</string>
+    </dict>
+  </lib>
+</glyph>

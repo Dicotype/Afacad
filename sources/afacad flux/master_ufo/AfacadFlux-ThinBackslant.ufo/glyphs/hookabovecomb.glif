@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hookabovecomb" format="2">
+  <unicode hex="0309"/>
+  <anchor x="293" y="570" name="_top"/>
+  <anchor x="210" y="855" name="top"/>
+  <outline>
+    <contour>
+      <point x="253" y="660" type="curve"/>
+      <point x="289" y="660" type="line"/>
+      <point x="316" y="696"/>
+      <point x="328" y="726"/>
+      <point x="328" y="754" type="curve" smooth="yes"/>
+      <point x="328" y="811"/>
+      <point x="282" y="855"/>
+      <point x="222" y="855" type="curve" smooth="yes"/>
+      <point x="185" y="855"/>
+      <point x="148" y="840"/>
+      <point x="123" y="814" type="curve"/>
+      <point x="139" y="782" type="line"/>
+      <point x="157" y="808"/>
+      <point x="186" y="823"/>
+      <point x="221" y="823" type="curve" smooth="yes"/>
+      <point x="265" y="823"/>
+      <point x="294" y="795"/>
+      <point x="294" y="751" type="curve" smooth="yes"/>
+      <point x="294" y="726"/>
+      <point x="283" y="701"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>720</integer>
+    </dict>
+  </lib>
+</glyph>

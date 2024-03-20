@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tildecomb_macroncomb" format="2">
+  <anchor x="360" y="600" name="_top"/>
+  <anchor x="360" y="1058" name="top"/>
+  <outline>
+    <contour>
+      <point x="198" y="685" type="line"/>
+      <point x="214" y="726"/>
+      <point x="241" y="750"/>
+      <point x="279" y="750" type="curve" smooth="yes"/>
+      <point x="331" y="750"/>
+      <point x="377" y="703"/>
+      <point x="441" y="703" type="curve" smooth="yes"/>
+      <point x="491" y="703"/>
+      <point x="536" y="731"/>
+      <point x="560" y="778" type="curve"/>
+      <point x="522" y="886" type="line"/>
+      <point x="506" y="846"/>
+      <point x="479" y="823"/>
+      <point x="441" y="823" type="curve" smooth="yes"/>
+      <point x="389" y="823"/>
+      <point x="343" y="870"/>
+      <point x="279" y="870" type="curve" smooth="yes"/>
+      <point x="229" y="870"/>
+      <point x="184" y="843"/>
+      <point x="160" y="795" type="curve"/>
+    </contour>
+    <contour>
+      <point x="157" y="938" type="line"/>
+      <point x="563" y="938" type="line"/>
+      <point x="563" y="1058" type="line"/>
+      <point x="157" y="1058" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>720</integer>
+    </dict>
+  </lib>
+</glyph>

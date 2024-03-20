@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="equal.dnom" format="2">
+  <advance width="480"/>
+  <outline>
+    <contour>
+      <point x="48" y="271" type="line"/>
+      <point x="432" y="271" type="line"/>
+      <point x="432" y="373" type="line"/>
+      <point x="48" y="373" type="line"/>
+    </contour>
+    <contour>
+      <point x="48" y="107" type="line"/>
+      <point x="432" y="107" type="line"/>
+      <point x="432" y="209" type="line"/>
+      <point x="48" y="209" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Math</string>
+    </dict>
+  </lib>
+</glyph>

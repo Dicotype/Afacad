@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dzcaron" format="2">
+  <advance width="1310"/>
+  <unicode hex="01C6"/>
+  <anchor x="276" y="0" name="bottom_1"/>
+  <anchor x="970" y="0" name="bottom_2"/>
+  <anchor x="734" y="780" name="center_1"/>
+  <anchor x="1041" y="285" name="center_2"/>
+  <anchor x="416" y="570" name="top_1"/>
+  <anchor x="1112" y="570" name="top_2"/>
+  <anchor x="879" y="960" name="topright"/>
+  <outline>
+    <component base="d"/>
+    <component base="z" xOffset="780"/>
+    <component base="caroncomb" xOffset="698"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>d</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>z</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>caroncomb</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

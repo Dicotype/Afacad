@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gravecomb.narrow" format="2">
+  <anchor x="505" y="600" name="_top"/>
+  <anchor x="494" y="900" name="top"/>
+  <outline>
+    <contour>
+      <point x="469" y="678" type="line"/>
+      <point x="598" y="678" type="line"/>
+      <point x="583" y="900" type="line"/>
+      <point x="405" y="900" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>720</integer>
+    </dict>
+  </lib>
+</glyph>

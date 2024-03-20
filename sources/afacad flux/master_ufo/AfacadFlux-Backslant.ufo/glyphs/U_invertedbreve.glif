@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Uinvertedbreve" format="2">
+  <advance width="800"/>
+  <unicode hex="0216"/>
+  <anchor x="473" y="0" name="bottom"/>
+  <anchor x="503" y="0" name="ogonek"/>
+  <anchor x="188" y="1149" name="top"/>
+  <anchor x="295" y="720" name="top-vertical"/>
+  <anchor x="542" y="900" name="topright"/>
+  <outline>
+    <component base="U"/>
+    <component base="breveinvertedcomb" xOffset="-35" yOffset="300"/>
+  </outline>
+</glyph>

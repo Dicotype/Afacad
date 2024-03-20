@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="naira" format="2">
+  <advance width="750"/>
+  <unicode hex="20A6"/>
+  <outline>
+    <contour>
+      <point x="735" y="-30" type="line"/>
+      <point x="737" y="-30" type="line"/>
+      <point x="656" y="294" type="line"/>
+      <point x="710" y="294" type="line"/>
+      <point x="683" y="402" type="line"/>
+      <point x="629" y="402" type="line"/>
+      <point x="605" y="498" type="line"/>
+      <point x="659" y="498" type="line"/>
+      <point x="632" y="606" type="line"/>
+      <point x="578" y="606" type="line"/>
+      <point x="505" y="900" type="line"/>
+      <point x="337" y="900" type="line"/>
+      <point x="453" y="435" type="line"/>
+      <point x="-59" y="930" type="line"/>
+      <point x="-61" y="930" type="line"/>
+      <point x="20" y="606" type="line"/>
+      <point x="-34" y="606" type="line"/>
+      <point x="-7" y="498" type="line"/>
+      <point x="47" y="498" type="line"/>
+      <point x="71" y="402" type="line"/>
+      <point x="17" y="402" type="line"/>
+      <point x="44" y="294" type="line"/>
+      <point x="98" y="294" type="line"/>
+      <point x="171" y="0" type="line"/>
+      <point x="339" y="0" type="line"/>
+      <point x="223" y="465" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="jacute" format="2">
+  <advance width="360"/>
+  <anchor x="180" y="-300" name="bottom"/>
+  <anchor x="303" y="912" name="top"/>
+  <outline>
+    <component base="jdotless"/>
+    <component base="acutecomb" xOffset="-105"/>
+  </outline>
+</glyph>

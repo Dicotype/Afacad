@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="macroncomb" format="2">
+  <unicode hex="0304"/>
+  <anchor x="293" y="570" name="_top"/>
+  <anchor x="243" y="767" name="top"/>
+  <outline>
+    <contour>
+      <point x="81" y="733" type="line"/>
+      <point x="423" y="733" type="line"/>
+      <point x="415" y="767" type="line"/>
+      <point x="73" y="767" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>720</integer>
+    </dict>
+  </lib>
+</glyph>
