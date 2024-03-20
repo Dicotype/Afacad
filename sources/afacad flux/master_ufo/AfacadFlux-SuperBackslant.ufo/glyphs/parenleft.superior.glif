@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="parenleft.superior" format="2">
+  <advance width="340"/>
+  <unicode hex="207D"/>
+  <outline>
+    <component base="parenleft.numr" xOffset="-60" yOffset="240"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>parenleft.numr</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

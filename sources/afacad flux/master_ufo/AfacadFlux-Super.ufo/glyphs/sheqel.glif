@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sheqel" format="2">
+  <advance width="750"/>
+  <unicode hex="20AA"/>
+  <outline>
+    <contour>
+      <point x="442" y="0" type="curve" smooth="yes"/>
+      <point x="720" y="0" type="line"/>
+      <point x="720" y="900" type="line"/>
+      <point x="511" y="900" type="line"/>
+      <point x="511" y="252" type="line"/>
+      <point x="431" y="252" type="line" smooth="yes"/>
+      <point x="384" y="252"/>
+      <point x="351" y="287"/>
+      <point x="351" y="338" type="curve" smooth="yes"/>
+      <point x="351" y="564" type="line"/>
+      <point x="287" y="564" type="line"/>
+      <point x="287" y="166" type="line" smooth="yes"/>
+      <point x="287" y="66"/>
+      <point x="356" y="0"/>
+    </contour>
+    <contour>
+      <point x="30" y="0" type="line"/>
+      <point x="239" y="0" type="line"/>
+      <point x="239" y="618" type="line"/>
+      <point x="319" y="618" type="line" smooth="yes"/>
+      <point x="366" y="618"/>
+      <point x="399" y="583"/>
+      <point x="399" y="532" type="curve" smooth="yes"/>
+      <point x="399" y="306" type="line"/>
+      <point x="463" y="306" type="line"/>
+      <point x="463" y="734" type="line" smooth="yes"/>
+      <point x="463" y="834"/>
+      <point x="394" y="900"/>
+      <point x="308" y="900" type="curve" smooth="yes"/>
+      <point x="30" y="900" type="line"/>
+    </contour>
+  </outline>
+</glyph>

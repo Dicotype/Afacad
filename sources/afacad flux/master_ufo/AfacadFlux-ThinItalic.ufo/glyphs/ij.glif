@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ij" format="2">
+  <advance width="520"/>
+  <unicode hex="0133"/>
+  <anchor x="55" y="0" name="bottom_1"/>
+  <anchor x="244" y="-300" name="bottom_2"/>
+  <anchor x="55" y="0" name="ogonek"/>
+  <anchor x="197" y="570" name="top_1"/>
+  <anchor x="469" y="570" name="top_2"/>
+  <outline>
+    <component base="idotless"/>
+    <component base="dotaccentcomb" xOffset="-230"/>
+    <component base="jdotless" xOffset="260"/>
+    <component base="dotaccentcomb" xOffset="42"/>
+  </outline>
+</glyph>

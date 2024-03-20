@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotaccentcomb_macroncomb" format="2">
+  <anchor x="427" y="570" name="_top"/>
+  <anchor x="517" y="930" name="top"/>
+  <outline>
+    <contour>
+      <point x="469" y="714" type="curve" smooth="yes"/>
+      <point x="490" y="714"/>
+      <point x="509" y="733"/>
+      <point x="509" y="755" type="curve" smooth="yes"/>
+      <point x="509" y="773"/>
+      <point x="494" y="786"/>
+      <point x="477" y="786" type="curve" smooth="yes"/>
+      <point x="456" y="786"/>
+      <point x="437" y="767"/>
+      <point x="437" y="745" type="curve" smooth="yes"/>
+      <point x="437" y="728"/>
+      <point x="450" y="714"/>
+    </contour>
+    <contour>
+      <point x="338" y="897" type="line"/>
+      <point x="680" y="897" type="line"/>
+      <point x="688" y="929" type="line"/>
+      <point x="346" y="929" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>720</integer>
+    </dict>
+  </lib>
+</glyph>

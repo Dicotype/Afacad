@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lcaron.ss03" format="2">
+  <advance width="610"/>
+  <anchor x="276" y="0" name="bottom"/>
+  <anchor x="129" y="480" name="center"/>
+  <anchor x="418" y="420" name="periodcentered"/>
+  <anchor x="9" y="960" name="top"/>
+  <anchor x="141" y="960" name="topright"/>
+  <outline>
+    <component base="l.ss03"/>
+    <component base="caroncomb.alt" xOffset="94"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>l.ss03</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>caroncomb.alt</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

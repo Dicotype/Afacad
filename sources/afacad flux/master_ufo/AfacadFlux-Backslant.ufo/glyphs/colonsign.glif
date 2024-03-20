@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="colonsign" format="2">
+  <advance width="750"/>
+  <unicode hex="20A1"/>
+  <outline>
+    <contour>
+      <point x="426" y="-120" type="line"/>
+      <point x="510" y="-120" type="line"/>
+      <point x="473" y="-9" type="line"/>
+      <point x="510" y="-9"/>
+      <point x="539" y="-5"/>
+      <point x="565" y="2" type="curve"/>
+      <point x="606" y="-120" type="line"/>
+      <point x="690" y="-120" type="line"/>
+      <point x="638" y="35" type="line"/>
+      <point x="666" y="53"/>
+      <point x="689" y="76"/>
+      <point x="709" y="103" type="curve"/>
+      <point x="644" y="232" type="line"/>
+      <point x="616" y="144"/>
+      <point x="554" y="94"/>
+      <point x="470" y="94" type="curve" smooth="yes"/>
+      <point x="310" y="94"/>
+      <point x="151" y="332"/>
+      <point x="151" y="563" type="curve" smooth="yes"/>
+      <point x="151" y="709"/>
+      <point x="226" y="810"/>
+      <point x="339" y="810" type="curve" smooth="yes"/>
+      <point x="415" y="810"/>
+      <point x="485" y="769"/>
+      <point x="544" y="694" type="curve"/>
+      <point x="543" y="837" type="line"/>
+      <point x="492" y="876"/>
+      <point x="440" y="900"/>
+      <point x="382" y="909" type="curve"/>
+      <point x="356" y="990" type="line"/>
+      <point x="272" y="990" type="line"/>
+      <point x="298" y="911" type="line"/>
+      <point x="266" y="908"/>
+      <point x="236" y="900"/>
+      <point x="209" y="887" type="curve"/>
+      <point x="176" y="990" type="line"/>
+      <point x="92" y="990" type="line"/>
+      <point x="141" y="841" type="line"/>
+      <point x="75" y="780"/>
+      <point x="37" y="684"/>
+      <point x="37" y="568" type="curve" smooth="yes"/>
+      <point x="37" y="314"/>
+      <point x="194" y="71"/>
+      <point x="384" y="7" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

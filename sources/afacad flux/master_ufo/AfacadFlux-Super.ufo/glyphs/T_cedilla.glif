@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Tcedilla" format="2">
+  <advance width="730"/>
+  <unicode hex="0162"/>
+  <outline>
+    <contour>
+      <point x="47" y="-220" type="line"/>
+      <point x="419" y="-220" type="line"/>
+      <point x="515" y="0" type="line"/>
+      <point x="515" y="648" type="line"/>
+      <point x="694" y="648" type="line"/>
+      <point x="694" y="900" type="line"/>
+      <point x="36" y="900" type="line"/>
+      <point x="36" y="648" type="line"/>
+      <point x="215" y="648" type="line"/>
+      <point x="215" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

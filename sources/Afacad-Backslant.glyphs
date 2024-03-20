@@ -1545,7 +1545,7 @@ value = 0;
 },
 {
 name = underlineThickness;
-value = 90;
+value = 34;
 },
 {
 name = underlinePosition;
@@ -1715,7 +1715,7 @@ pos = -300;
 {
 }
 );
-name = Backslant;
+name = "Regular Backslant";
 stemValues = (
 102,
 114
@@ -1764,7 +1764,7 @@ value = 0;
 },
 {
 name = underlineThickness;
-value = 90;
+value = 132;
 },
 {
 name = underlinePosition;
@@ -1877,7 +1877,7 @@ value = 0;
 },
 {
 name = underlineThickness;
-value = 90;
+value = 180;
 },
 {
 name = underlinePosition;
@@ -8706,7 +8706,7 @@ unicode = 272;
 glyphname = Dzcaron;
 kernLeft = B;
 kernRight = z;
-lastChange = "2024-02-26 20:31:39 +0000";
+lastChange = "2024-03-18 13:26:03 +0000";
 layers = (
 {
 layerId = "ACBCE007-E73D-46AC-8E41-1CDF677894E7";
@@ -8766,15 +8766,15 @@ shapes = (
 ref = D;
 },
 {
-pos = (940,0);
+pos = (930,0);
 ref = z;
 },
 {
-pos = (876,0);
+pos = (866,0);
 ref = caroncomb;
 }
 );
-width = 1520;
+width = 1510;
 }
 );
 unicode = 453;

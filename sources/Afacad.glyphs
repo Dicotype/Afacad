@@ -1,6 +1,9 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
+DisplayStrings = (
+_
+);
 axes = (
 {
 name = Weight;
@@ -1545,7 +1548,7 @@ value = 0;
 },
 {
 name = underlineThickness;
-value = 90;
+value = 34;
 },
 {
 name = underlinePosition;
@@ -1726,7 +1729,7 @@ value = 0;
 },
 {
 name = underlineThickness;
-value = 90;
+value = 132;
 },
 {
 name = underlinePosition;
@@ -1820,7 +1823,7 @@ value = 0;
 },
 {
 name = underlineThickness;
-value = 90;
+value = 180;
 },
 {
 name = underlinePosition;

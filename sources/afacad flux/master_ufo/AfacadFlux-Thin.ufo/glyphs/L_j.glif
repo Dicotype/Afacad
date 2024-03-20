@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lj" format="2">
+  <advance width="840"/>
+  <unicode hex="01C8"/>
+  <anchor x="331" y="0" name="bottom_1"/>
+  <anchor x="707" y="-300" name="bottom_2"/>
+  <anchor x="158" y="450" name="center"/>
+  <anchor x="420" y="480" name="periodcentered"/>
+  <anchor x="158" y="900" name="top_1"/>
+  <anchor x="707" y="570" name="top_2"/>
+  <anchor x="222" y="900" name="topright"/>
+  <outline>
+    <component base="L"/>
+    <component base="jdotless" xOffset="580"/>
+    <component base="dotaccentcomb" xOffset="347"/>
+  </outline>
+</glyph>

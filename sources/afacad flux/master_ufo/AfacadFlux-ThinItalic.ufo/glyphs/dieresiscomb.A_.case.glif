@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresiscomb.A.case" format="2">
+  <anchor x="570" y="900" name="_top"/>
+  <anchor x="601" y="1026" name="top"/>
+  <outline>
+    <contour>
+      <point x="730" y="936" type="curve" smooth="yes"/>
+      <point x="752" y="936"/>
+      <point x="775" y="959"/>
+      <point x="775" y="983" type="curve" smooth="yes"/>
+      <point x="775" y="1005"/>
+      <point x="758" y="1020"/>
+      <point x="737" y="1020" type="curve" smooth="yes"/>
+      <point x="714" y="1020"/>
+      <point x="691" y="997"/>
+      <point x="691" y="973" type="curve" smooth="yes"/>
+      <point x="691" y="953"/>
+      <point x="707" y="936"/>
+    </contour>
+    <contour>
+      <point x="442" y="936" type="curve" smooth="yes"/>
+      <point x="464" y="936"/>
+      <point x="487" y="959"/>
+      <point x="487" y="983" type="curve" smooth="yes"/>
+      <point x="487" y="1005"/>
+      <point x="470" y="1020"/>
+      <point x="449" y="1020" type="curve" smooth="yes"/>
+      <point x="426" y="1020"/>
+      <point x="403" y="997"/>
+      <point x="403" y="973" type="curve" smooth="yes"/>
+      <point x="403" y="953"/>
+      <point x="419" y="936"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>840</integer>
+    </dict>
+  </lib>
+</glyph>

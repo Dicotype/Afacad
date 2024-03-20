@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Dcaron" format="2">
+  <advance width="940"/>
+  <unicode hex="010E"/>
+  <anchor x="357" y="0" name="bottom"/>
+  <anchor x="233" y="456" name="center"/>
+  <anchor x="635" y="1182" name="top"/>
+  <outline>
+    <component base="D"/>
+    <component base="caroncomb" xOffset="139" yOffset="270"/>
+  </outline>
+</glyph>

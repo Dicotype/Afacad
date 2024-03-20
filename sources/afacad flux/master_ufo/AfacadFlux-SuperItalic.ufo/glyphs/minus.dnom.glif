@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="minus.dnom" format="2">
+  <advance width="540"/>
+  <outline>
+    <contour>
+      <point x="47" y="198" type="line"/>
+      <point x="443" y="198" type="line"/>
+      <point x="479" y="342" type="line"/>
+      <point x="83" y="342" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Math</string>
+    </dict>
+  </lib>
+</glyph>

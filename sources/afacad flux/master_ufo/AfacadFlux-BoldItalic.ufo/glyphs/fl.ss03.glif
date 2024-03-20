@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fl.ss03" format="2">
+  <advance width="790"/>
+  <outline>
+    <contour>
+      <point x="653" y="-12" type="curve"/>
+      <point x="718" y="121" type="line"/>
+      <point x="676" y="126"/>
+      <point x="659" y="150"/>
+      <point x="672" y="202" type="curve" smooth="yes"/>
+      <point x="862" y="960" type="line"/>
+      <point x="688" y="960" type="line"/>
+      <point x="598" y="600" type="line"/>
+      <point x="383" y="600" type="line"/>
+      <point x="422" y="755" type="line" smooth="yes"/>
+      <point x="438" y="819"/>
+      <point x="470" y="837"/>
+      <point x="499" y="837" type="curve" smooth="yes"/>
+      <point x="532" y="837"/>
+      <point x="553" y="821"/>
+      <point x="569" y="790" type="curve"/>
+      <point x="637" y="925" type="line"/>
+      <point x="600" y="959"/>
+      <point x="538" y="972"/>
+      <point x="492" y="972" type="curve" smooth="yes"/>
+      <point x="384" y="972"/>
+      <point x="291" y="908"/>
+      <point x="257" y="771" type="curve" smooth="yes"/>
+      <point x="214" y="600" type="line"/>
+      <point x="99" y="600" type="line"/>
+      <point x="65" y="462" type="line"/>
+      <point x="177" y="462" type="line"/>
+      <point x="61" y="0" type="line"/>
+      <point x="235" y="0" type="line"/>
+      <point x="351" y="462" type="line"/>
+      <point x="563" y="462" type="line"/>
+      <point x="503" y="223" type="line" smooth="yes"/>
+      <point x="470" y="90"/>
+      <point x="534" y="2"/>
+    </contour>
+  </outline>
+</glyph>
