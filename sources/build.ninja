@@ -1,0 +1,996 @@
+# buildVariable: Build a variable font from a source file
+rule buildVariable
+  command = /Users/marichalemma/Google/env/bin/python3.9 -m $
+      gftools.builder.jobrunner fontmake --output-path $out -o variable $
+      $fontmake_type $in $args $stamp
+  description = buildVariable
+
+# fix: Run gftools-fix
+rule fix
+  command = /Users/marichalemma/Google/env/bin/python3.9 -m $
+      gftools.builder.jobrunner gftools-fix-font -o $out $args $in $stamp
+  description = fix
+
+# compress: Compress to webfont
+rule compress
+  command = /Users/marichalemma/Google/env/bin/python3.9 -m $
+      gftools.builder.jobrunner fonttools ttLib.woff2 compress -o $out $in $
+      $stamp
+  description = compress
+
+# buildStat: Build a STAT table from one or more source files
+rule buildSTAT-operation
+  command = gftools-gen-stat --out $tempdir $args -- $in && mv $finalfile $
+      $out $stamp
+rule buildSTAT-postprocess
+  command = gftools-gen-stat --inplace $args -- $in $stamp
+
+# instantiateUfo: Create instance UFOs from a Glyphs or designspace file
+rule instantiateUfo
+  command = /Users/marichalemma/Google/env/bin/python3.9 -m $
+      gftools.builder.jobrunner fontmake -i "$instance_name" -o ufo $
+      $fontmake_type $in $args $stamp
+  description = instantiateUfo
+
+# buildTTF: Build a TTF from a source file
+rule buildTTF
+  command = /Users/marichalemma/Google/env/bin/python3.9 -m $
+      gftools.builder.jobrunner fontmake --output-path $out -o ttf $
+      $fontmake_type $in $args $stamp
+  description = buildTTF
+
+# autohint: Run gftools-autohint
+rule autohint
+  command = /Users/marichalemma/Google/env/bin/python3.9 -m $
+      gftools.builder.jobrunner gftools-autohint $args -o $out $in $stamp
+  description = autohint
+
+# buildOTF: Build a OTF from a source file
+rule buildOTF
+  command = /Users/marichalemma/Google/env/bin/python3.9 -m $
+      gftools.builder.jobrunner fontmake --output-path $out -o otf $
+      $fontmake_type $in $args $stamp
+  description = buildOTF
+
+# copy: Copy a file
+rule copy
+  command = /Users/marichalemma/Google/env/bin/python3.9 -m $
+      gftools.builder.jobrunner cp $in $out $stamp
+  description = copy
+
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp4lljiopc
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp4lljiopc: $
+    buildVariable Afacad.glyphs
+  operation = buildVariable
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+# Generating instance_ufos/Afacad-Thin.ufo.json
+build instance_ufos/Afacad-Thin.ufo.json: instantiateUfo Afacad.glyphs
+  operation = instantiateUfo
+  instance_name = Afacad Thin
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/Afacad-ExtraLight.ufo.json
+build instance_ufos/Afacad-ExtraLight.ufo.json: instantiateUfo Afacad.glyphs
+  operation = instantiateUfo
+  instance_name = Afacad ExtraLight
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/Afacad-Light.ufo.json
+build instance_ufos/Afacad-Light.ufo.json: instantiateUfo Afacad.glyphs
+  operation = instantiateUfo
+  instance_name = Afacad Light
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/Afacad-Regular.ufo.json
+build instance_ufos/Afacad-Regular.ufo.json: instantiateUfo Afacad.glyphs
+  operation = instantiateUfo
+  instance_name = Afacad Regular
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/Afacad-Medium.ufo.json
+build instance_ufos/Afacad-Medium.ufo.json: instantiateUfo Afacad.glyphs
+  operation = instantiateUfo
+  instance_name = Afacad Medium
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/Afacad-SemiBold.ufo.json
+build instance_ufos/Afacad-SemiBold.ufo.json: instantiateUfo Afacad.glyphs
+  operation = instantiateUfo
+  instance_name = Afacad SemiBold
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/Afacad-Bold.ufo.json
+build instance_ufos/Afacad-Bold.ufo.json: instantiateUfo Afacad.glyphs
+  operation = instantiateUfo
+  instance_name = Afacad Bold
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/Afacad-ExtraBold.ufo.json
+build instance_ufos/Afacad-ExtraBold.ufo.json: instantiateUfo Afacad.glyphs
+  operation = instantiateUfo
+  instance_name = Afacad ExtraBold
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/Afacad-Black.ufo.json
+build instance_ufos/Afacad-Black.ufo.json: instantiateUfo Afacad.glyphs
+  operation = instantiateUfo
+  instance_name = Afacad Black
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/Afacad-ExtraBlack.ufo.json
+build instance_ufos/Afacad-ExtraBlack.ufo.json: instantiateUfo Afacad.glyphs
+  operation = instantiateUfo
+  instance_name = Afacad ExtraBlack
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpuxmsip6x
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpuxmsip6x: $
+    buildVariable Afacad-Italic.glyphs
+  operation = buildVariable
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+# Generating instance_ufos/Afacad-ThinItalic.ufo.json
+build instance_ufos/Afacad-ThinItalic.ufo.json: instantiateUfo $
+    Afacad-Italic.glyphs
+  operation = instantiateUfo
+  instance_name = Afacad Thin Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/Afacad-ExtraLightItalic.ufo.json
+build instance_ufos/Afacad-ExtraLightItalic.ufo.json: instantiateUfo $
+    Afacad-Italic.glyphs
+  operation = instantiateUfo
+  instance_name = Afacad ExtraLight Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/Afacad-LightItalic.ufo.json
+build instance_ufos/Afacad-LightItalic.ufo.json: instantiateUfo $
+    Afacad-Italic.glyphs
+  operation = instantiateUfo
+  instance_name = Afacad Light Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/Afacad-Italic.ufo.json
+build instance_ufos/Afacad-Italic.ufo.json: instantiateUfo $
+    Afacad-Italic.glyphs
+  operation = instantiateUfo
+  instance_name = Afacad Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/Afacad-MediumItalic.ufo.json
+build instance_ufos/Afacad-MediumItalic.ufo.json: instantiateUfo $
+    Afacad-Italic.glyphs
+  operation = instantiateUfo
+  instance_name = Afacad Medium Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/Afacad-SemiBoldItalic.ufo.json
+build instance_ufos/Afacad-SemiBoldItalic.ufo.json: instantiateUfo $
+    Afacad-Italic.glyphs
+  operation = instantiateUfo
+  instance_name = Afacad SemiBold Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/Afacad-BoldItalic.ufo.json
+build instance_ufos/Afacad-BoldItalic.ufo.json: instantiateUfo $
+    Afacad-Italic.glyphs
+  operation = instantiateUfo
+  instance_name = Afacad Bold Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/Afacad-ExtraBoldItalic.ufo.json
+build instance_ufos/Afacad-ExtraBoldItalic.ufo.json: instantiateUfo $
+    Afacad-Italic.glyphs
+  operation = instantiateUfo
+  instance_name = Afacad ExtraBold Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/Afacad-BlackItalic.ufo.json
+build instance_ufos/Afacad-BlackItalic.ufo.json: instantiateUfo $
+    Afacad-Italic.glyphs
+  operation = instantiateUfo
+  instance_name = Afacad Black Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/Afacad-ExtraBlackItalic.ufo.json
+build instance_ufos/Afacad-ExtraBlackItalic.ufo.json: instantiateUfo $
+    Afacad-Italic.glyphs
+  operation = instantiateUfo
+  instance_name = Afacad ExtraBlack Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating ../fonts/Afacad/webfonts/Afacad[wght].woff2
+build ../fonts/Afacad/webfonts/Afacad[wght].woff2: compress $
+    ../fonts/Afacad/variable/Afacad[wght].ttf
+  operation = compress
+# Postprocessing  with BuildSTAT
+build $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpydmdn92s.buildStatstamp: $
+    buildSTAT-postprocess ../fonts/Afacad/variable/Afacad-Italic[wght].ttf $
+    ../fonts/Afacad/variable/Afacad[wght].ttf
+  stamp =  && touch $
+      /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpydmdn92s.buildStatstamp
+  postprocess = buildStat
+  args = --src /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp532b1e8d
+# Generating ../fonts/Afacad/webfonts/Afacad-Italic[wght].woff2
+build ../fonts/Afacad/webfonts/Afacad-Italic[wght].woff2: compress $
+    ../fonts/Afacad/variable/Afacad-Italic[wght].ttf
+  operation = compress
+# Generating ../fonts/Afacad/webfonts/Afacad-Thin.woff2
+build ../fonts/Afacad/webfonts/Afacad-Thin.woff2: compress $
+    ../fonts/Afacad/ttf/Afacad-Thin.ttf
+  operation = compress
+# Generating ../fonts/Afacad/webfonts/Afacad-ExtraLight.woff2
+build ../fonts/Afacad/webfonts/Afacad-ExtraLight.woff2: compress $
+    ../fonts/Afacad/ttf/Afacad-ExtraLight.ttf
+  operation = compress
+# Generating ../fonts/Afacad/webfonts/Afacad-Light.woff2
+build ../fonts/Afacad/webfonts/Afacad-Light.woff2: compress $
+    ../fonts/Afacad/ttf/Afacad-Light.ttf
+  operation = compress
+# Generating ../fonts/Afacad/webfonts/Afacad-Regular.woff2
+build ../fonts/Afacad/webfonts/Afacad-Regular.woff2: compress $
+    ../fonts/Afacad/ttf/Afacad-Regular.ttf
+  operation = compress
+# Generating ../fonts/Afacad/webfonts/Afacad-Medium.woff2
+build ../fonts/Afacad/webfonts/Afacad-Medium.woff2: compress $
+    ../fonts/Afacad/ttf/Afacad-Medium.ttf
+  operation = compress
+# Generating ../fonts/Afacad/webfonts/Afacad-SemiBold.woff2
+build ../fonts/Afacad/webfonts/Afacad-SemiBold.woff2: compress $
+    ../fonts/Afacad/ttf/Afacad-SemiBold.ttf
+  operation = compress
+# Generating ../fonts/Afacad/webfonts/Afacad-Bold.woff2
+build ../fonts/Afacad/webfonts/Afacad-Bold.woff2: compress $
+    ../fonts/Afacad/ttf/Afacad-Bold.ttf
+  operation = compress
+# Generating ../fonts/Afacad/webfonts/Afacad-ExtraBold.woff2
+build ../fonts/Afacad/webfonts/Afacad-ExtraBold.woff2: compress $
+    ../fonts/Afacad/ttf/Afacad-ExtraBold.ttf
+  operation = compress
+# Generating ../fonts/Afacad/webfonts/Afacad-Black.woff2
+build ../fonts/Afacad/webfonts/Afacad-Black.woff2: compress $
+    ../fonts/Afacad/ttf/Afacad-Black.ttf
+  operation = compress
+# Generating ../fonts/Afacad/webfonts/Afacad-ExtraBlack.woff2
+build ../fonts/Afacad/webfonts/Afacad-ExtraBlack.woff2: compress $
+    ../fonts/Afacad/ttf/Afacad-ExtraBlack.ttf
+  operation = compress
+# Generating ../fonts/Afacad/webfonts/Afacad-ThinItalic.woff2
+build ../fonts/Afacad/webfonts/Afacad-ThinItalic.woff2: compress $
+    ../fonts/Afacad/ttf/Afacad-ThinItalic.ttf
+  operation = compress
+# Generating ../fonts/Afacad/webfonts/Afacad-ExtraLightItalic.woff2
+build ../fonts/Afacad/webfonts/Afacad-ExtraLightItalic.woff2: compress $
+    ../fonts/Afacad/ttf/Afacad-ExtraLightItalic.ttf
+  operation = compress
+# Generating ../fonts/Afacad/webfonts/Afacad-LightItalic.woff2
+build ../fonts/Afacad/webfonts/Afacad-LightItalic.woff2: compress $
+    ../fonts/Afacad/ttf/Afacad-LightItalic.ttf
+  operation = compress
+# Generating ../fonts/Afacad/webfonts/Afacad-Italic.woff2
+build ../fonts/Afacad/webfonts/Afacad-Italic.woff2: compress $
+    ../fonts/Afacad/ttf/Afacad-Italic.ttf
+  operation = compress
+# Generating ../fonts/Afacad/webfonts/Afacad-MediumItalic.woff2
+build ../fonts/Afacad/webfonts/Afacad-MediumItalic.woff2: compress $
+    ../fonts/Afacad/ttf/Afacad-MediumItalic.ttf
+  operation = compress
+# Generating ../fonts/Afacad/webfonts/Afacad-SemiBoldItalic.woff2
+build ../fonts/Afacad/webfonts/Afacad-SemiBoldItalic.woff2: compress $
+    ../fonts/Afacad/ttf/Afacad-SemiBoldItalic.ttf
+  operation = compress
+# Generating ../fonts/Afacad/webfonts/Afacad-BoldItalic.woff2
+build ../fonts/Afacad/webfonts/Afacad-BoldItalic.woff2: compress $
+    ../fonts/Afacad/ttf/Afacad-BoldItalic.ttf
+  operation = compress
+# Generating ../fonts/Afacad/webfonts/Afacad-ExtraBoldItalic.woff2
+build ../fonts/Afacad/webfonts/Afacad-ExtraBoldItalic.woff2: compress $
+    ../fonts/Afacad/ttf/Afacad-ExtraBoldItalic.ttf
+  operation = compress
+# Generating ../fonts/Afacad/webfonts/Afacad-BlackItalic.woff2
+build ../fonts/Afacad/webfonts/Afacad-BlackItalic.woff2: compress $
+    ../fonts/Afacad/ttf/Afacad-BlackItalic.ttf
+  operation = compress
+# Generating ../fonts/Afacad/webfonts/Afacad-ExtraBlackItalic.woff2
+build ../fonts/Afacad/webfonts/Afacad-ExtraBlackItalic.woff2: compress $
+    ../fonts/Afacad/ttf/Afacad-ExtraBlackItalic.ttf
+  operation = compress
+# Generating ../fonts/Afacad/variable/Afacad[wght].ttf
+build ../fonts/Afacad/variable/Afacad[wght].ttf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp4lljiopc
+  operation = fix
+  args = 
+# Generating ../fonts/Afacad/variable/Afacad-Italic[wght].ttf
+build ../fonts/Afacad/variable/Afacad-Italic[wght].ttf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpuxmsip6x
+  operation = fix
+  args = 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpmheyr88j
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpmheyr88j: $
+    buildTTF instance_ufos/Afacad-Thin.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpiolh_vmp
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpiolh_vmp: $
+    buildOTF instance_ufos/Afacad-Thin.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp8sjsfvx0
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp8sjsfvx0: $
+    autohint /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpmheyr88j
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/Afacad/ttf/Afacad-Thin.ttf
+build ../fonts/Afacad/ttf/Afacad-Thin.ttf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp8sjsfvx0
+  operation = fix
+  args = 
+# Generating ../fonts/Afacad/otf/Afacad-Thin.otf
+build ../fonts/Afacad/otf/Afacad-Thin.otf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpiolh_vmp
+  operation = fix
+  args = 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp4u4y4uoh
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp4u4y4uoh: $
+    buildTTF instance_ufos/Afacad-ExtraLight.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp1c5gh8_3
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp1c5gh8_3: $
+    buildOTF instance_ufos/Afacad-ExtraLight.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp605rtk54
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp605rtk54: $
+    autohint /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp4u4y4uoh
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/Afacad/ttf/Afacad-ExtraLight.ttf
+build ../fonts/Afacad/ttf/Afacad-ExtraLight.ttf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp605rtk54
+  operation = fix
+  args = 
+# Generating ../fonts/Afacad/otf/Afacad-ExtraLight.otf
+build ../fonts/Afacad/otf/Afacad-ExtraLight.otf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp1c5gh8_3
+  operation = fix
+  args = 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpzuyuu_qw
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpzuyuu_qw: $
+    buildTTF instance_ufos/Afacad-Light.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpul1_ta_h
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpul1_ta_h: $
+    buildOTF instance_ufos/Afacad-Light.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpiox9xn0m
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpiox9xn0m: $
+    autohint /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpzuyuu_qw
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/Afacad/ttf/Afacad-Light.ttf
+build ../fonts/Afacad/ttf/Afacad-Light.ttf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpiox9xn0m
+  operation = fix
+  args = 
+# Generating ../fonts/Afacad/otf/Afacad-Light.otf
+build ../fonts/Afacad/otf/Afacad-Light.otf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpul1_ta_h
+  operation = fix
+  args = 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp48myru7n
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp48myru7n: $
+    buildTTF instance_ufos/Afacad-Regular.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpj2gjpzwp
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpj2gjpzwp: $
+    buildOTF instance_ufos/Afacad-Regular.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp7cfs0fok
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp7cfs0fok: $
+    autohint /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp48myru7n
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/Afacad/ttf/Afacad-Regular.ttf
+build ../fonts/Afacad/ttf/Afacad-Regular.ttf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp7cfs0fok
+  operation = fix
+  args = 
+# Generating ../fonts/Afacad/otf/Afacad-Regular.otf
+build ../fonts/Afacad/otf/Afacad-Regular.otf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpj2gjpzwp
+  operation = fix
+  args = 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpow29vo61
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpow29vo61: $
+    buildTTF instance_ufos/Afacad-Medium.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpakzvbono
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpakzvbono: $
+    buildOTF instance_ufos/Afacad-Medium.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp58pzwhuh
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp58pzwhuh: $
+    autohint /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpow29vo61
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/Afacad/ttf/Afacad-Medium.ttf
+build ../fonts/Afacad/ttf/Afacad-Medium.ttf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp58pzwhuh
+  operation = fix
+  args = 
+# Generating ../fonts/Afacad/otf/Afacad-Medium.otf
+build ../fonts/Afacad/otf/Afacad-Medium.otf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpakzvbono
+  operation = fix
+  args = 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp8717njdv
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp8717njdv: $
+    buildTTF instance_ufos/Afacad-SemiBold.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpzikjv1j2
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpzikjv1j2: $
+    buildOTF instance_ufos/Afacad-SemiBold.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpv_ykvua2
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpv_ykvua2: $
+    autohint /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp8717njdv
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/Afacad/ttf/Afacad-SemiBold.ttf
+build ../fonts/Afacad/ttf/Afacad-SemiBold.ttf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpv_ykvua2
+  operation = fix
+  args = 
+# Generating ../fonts/Afacad/otf/Afacad-SemiBold.otf
+build ../fonts/Afacad/otf/Afacad-SemiBold.otf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpzikjv1j2
+  operation = fix
+  args = 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpi5zs831j
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpi5zs831j: $
+    buildTTF instance_ufos/Afacad-Bold.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpnyg3l2t2
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpnyg3l2t2: $
+    buildOTF instance_ufos/Afacad-Bold.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpou0p7k_m
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpou0p7k_m: $
+    autohint /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpi5zs831j
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/Afacad/ttf/Afacad-Bold.ttf
+build ../fonts/Afacad/ttf/Afacad-Bold.ttf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpou0p7k_m
+  operation = fix
+  args = 
+# Generating ../fonts/Afacad/otf/Afacad-Bold.otf
+build ../fonts/Afacad/otf/Afacad-Bold.otf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpnyg3l2t2
+  operation = fix
+  args = 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpbzie6__7
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpbzie6__7: $
+    buildTTF instance_ufos/Afacad-ExtraBold.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmph9c9yx5m
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmph9c9yx5m: $
+    buildOTF instance_ufos/Afacad-ExtraBold.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmppsmijser
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmppsmijser: $
+    autohint /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpbzie6__7
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/Afacad/ttf/Afacad-ExtraBold.ttf
+build ../fonts/Afacad/ttf/Afacad-ExtraBold.ttf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmppsmijser
+  operation = fix
+  args = 
+# Generating ../fonts/Afacad/otf/Afacad-ExtraBold.otf
+build ../fonts/Afacad/otf/Afacad-ExtraBold.otf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmph9c9yx5m
+  operation = fix
+  args = 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp8bir85uj
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp8bir85uj: $
+    buildTTF instance_ufos/Afacad-Black.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpt02ogre3
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpt02ogre3: $
+    buildOTF instance_ufos/Afacad-Black.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpk2yz21_4
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpk2yz21_4: $
+    autohint /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp8bir85uj
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/Afacad/ttf/Afacad-Black.ttf
+build ../fonts/Afacad/ttf/Afacad-Black.ttf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpk2yz21_4
+  operation = fix
+  args = 
+# Generating ../fonts/Afacad/otf/Afacad-Black.otf
+build ../fonts/Afacad/otf/Afacad-Black.otf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpt02ogre3
+  operation = fix
+  args = 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpo3n1epyt
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpo3n1epyt: $
+    buildTTF instance_ufos/Afacad-ExtraBlack.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpuyzoqcsd
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpuyzoqcsd: $
+    buildOTF instance_ufos/Afacad-ExtraBlack.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp8x_2ddfz
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp8x_2ddfz: $
+    autohint /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpo3n1epyt
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/Afacad/ttf/Afacad-ExtraBlack.ttf
+build ../fonts/Afacad/ttf/Afacad-ExtraBlack.ttf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp8x_2ddfz
+  operation = fix
+  args = 
+# Generating ../fonts/Afacad/otf/Afacad-ExtraBlack.otf
+build ../fonts/Afacad/otf/Afacad-ExtraBlack.otf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpuyzoqcsd
+  operation = fix
+  args = 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpiauu05v1
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpiauu05v1: $
+    buildTTF instance_ufos/Afacad-ThinItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpyq8gr_sd
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpyq8gr_sd: $
+    buildOTF instance_ufos/Afacad-ThinItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpvvw0tcmp
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpvvw0tcmp: $
+    autohint /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpiauu05v1
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/Afacad/ttf/Afacad-ThinItalic.ttf
+build ../fonts/Afacad/ttf/Afacad-ThinItalic.ttf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpvvw0tcmp
+  operation = fix
+  args = 
+# Generating ../fonts/Afacad/otf/Afacad-ThinItalic.otf
+build ../fonts/Afacad/otf/Afacad-ThinItalic.otf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpyq8gr_sd
+  operation = fix
+  args = 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp0lr71qb7
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp0lr71qb7: $
+    buildTTF instance_ufos/Afacad-ExtraLightItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmputz41zup
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmputz41zup: $
+    buildOTF instance_ufos/Afacad-ExtraLightItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp1u5ksmo7
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp1u5ksmo7: $
+    autohint /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp0lr71qb7
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/Afacad/ttf/Afacad-ExtraLightItalic.ttf
+build ../fonts/Afacad/ttf/Afacad-ExtraLightItalic.ttf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp1u5ksmo7
+  operation = fix
+  args = 
+# Generating ../fonts/Afacad/otf/Afacad-ExtraLightItalic.otf
+build ../fonts/Afacad/otf/Afacad-ExtraLightItalic.otf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmputz41zup
+  operation = fix
+  args = 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpkquww6tt
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpkquww6tt: $
+    buildTTF instance_ufos/Afacad-LightItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpaqe_ikjz
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpaqe_ikjz: $
+    buildOTF instance_ufos/Afacad-LightItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmphq4chtrf
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmphq4chtrf: $
+    autohint /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpkquww6tt
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/Afacad/ttf/Afacad-LightItalic.ttf
+build ../fonts/Afacad/ttf/Afacad-LightItalic.ttf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmphq4chtrf
+  operation = fix
+  args = 
+# Generating ../fonts/Afacad/otf/Afacad-LightItalic.otf
+build ../fonts/Afacad/otf/Afacad-LightItalic.otf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpaqe_ikjz
+  operation = fix
+  args = 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpl9i7j860
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpl9i7j860: $
+    buildTTF instance_ufos/Afacad-Italic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp7dm_m4cp
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp7dm_m4cp: $
+    buildOTF instance_ufos/Afacad-Italic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpdriebuz6
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpdriebuz6: $
+    autohint /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpl9i7j860
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/Afacad/ttf/Afacad-Italic.ttf
+build ../fonts/Afacad/ttf/Afacad-Italic.ttf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpdriebuz6
+  operation = fix
+  args = 
+# Generating ../fonts/Afacad/otf/Afacad-Italic.otf
+build ../fonts/Afacad/otf/Afacad-Italic.otf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp7dm_m4cp
+  operation = fix
+  args = 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpmqr_hbbw
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpmqr_hbbw: $
+    buildTTF instance_ufos/Afacad-MediumItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpo55dr8y_
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpo55dr8y_: $
+    buildOTF instance_ufos/Afacad-MediumItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpdmrkxl_u
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpdmrkxl_u: $
+    autohint /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpmqr_hbbw
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/Afacad/ttf/Afacad-MediumItalic.ttf
+build ../fonts/Afacad/ttf/Afacad-MediumItalic.ttf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpdmrkxl_u
+  operation = fix
+  args = 
+# Generating ../fonts/Afacad/otf/Afacad-MediumItalic.otf
+build ../fonts/Afacad/otf/Afacad-MediumItalic.otf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpo55dr8y_
+  operation = fix
+  args = 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp5rlckscj
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp5rlckscj: $
+    buildTTF instance_ufos/Afacad-SemiBoldItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp2t0lh1si
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp2t0lh1si: $
+    buildOTF instance_ufos/Afacad-SemiBoldItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmppxng4j2x
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmppxng4j2x: $
+    autohint /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp5rlckscj
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/Afacad/ttf/Afacad-SemiBoldItalic.ttf
+build ../fonts/Afacad/ttf/Afacad-SemiBoldItalic.ttf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmppxng4j2x
+  operation = fix
+  args = 
+# Generating ../fonts/Afacad/otf/Afacad-SemiBoldItalic.otf
+build ../fonts/Afacad/otf/Afacad-SemiBoldItalic.otf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp2t0lh1si
+  operation = fix
+  args = 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpl8s0o0aq
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpl8s0o0aq: $
+    buildTTF instance_ufos/Afacad-BoldItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpzab3mzbg
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpzab3mzbg: $
+    buildOTF instance_ufos/Afacad-BoldItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp3s3kyy_y
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp3s3kyy_y: $
+    autohint /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpl8s0o0aq
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/Afacad/ttf/Afacad-BoldItalic.ttf
+build ../fonts/Afacad/ttf/Afacad-BoldItalic.ttf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp3s3kyy_y
+  operation = fix
+  args = 
+# Generating ../fonts/Afacad/otf/Afacad-BoldItalic.otf
+build ../fonts/Afacad/otf/Afacad-BoldItalic.otf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpzab3mzbg
+  operation = fix
+  args = 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp5ko37cqy
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp5ko37cqy: $
+    buildTTF instance_ufos/Afacad-ExtraBoldItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp3eke7vsv
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp3eke7vsv: $
+    buildOTF instance_ufos/Afacad-ExtraBoldItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpy42lg_e5
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpy42lg_e5: $
+    autohint /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp5ko37cqy
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/Afacad/ttf/Afacad-ExtraBoldItalic.ttf
+build ../fonts/Afacad/ttf/Afacad-ExtraBoldItalic.ttf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpy42lg_e5
+  operation = fix
+  args = 
+# Generating ../fonts/Afacad/otf/Afacad-ExtraBoldItalic.otf
+build ../fonts/Afacad/otf/Afacad-ExtraBoldItalic.otf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp3eke7vsv
+  operation = fix
+  args = 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp0xwlsq6e
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp0xwlsq6e: $
+    buildTTF instance_ufos/Afacad-BlackItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpwf137pwr
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpwf137pwr: $
+    buildOTF instance_ufos/Afacad-BlackItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp0k8p3ac3
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp0k8p3ac3: $
+    autohint /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp0xwlsq6e
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/Afacad/ttf/Afacad-BlackItalic.ttf
+build ../fonts/Afacad/ttf/Afacad-BlackItalic.ttf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp0k8p3ac3
+  operation = fix
+  args = 
+# Generating ../fonts/Afacad/otf/Afacad-BlackItalic.otf
+build ../fonts/Afacad/otf/Afacad-BlackItalic.otf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpwf137pwr
+  operation = fix
+  args = 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp7vs1lfky
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp7vs1lfky: $
+    buildTTF instance_ufos/Afacad-ExtraBlackItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpku0wt8h9
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpku0wt8h9: $
+    buildOTF instance_ufos/Afacad-ExtraBlackItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpm0mkjjfd
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpm0mkjjfd: $
+    autohint /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp7vs1lfky
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/Afacad/ttf/Afacad-ExtraBlackItalic.ttf
+build ../fonts/Afacad/ttf/Afacad-ExtraBlackItalic.ttf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpm0mkjjfd
+  operation = fix
+  args = 
+# Generating ../fonts/Afacad/otf/Afacad-ExtraBlackItalic.otf
+build ../fonts/Afacad/otf/Afacad-ExtraBlackItalic.otf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpku0wt8h9
+  operation = fix
+  args = 
+default ../fonts/Afacad/webfonts/Afacad[wght].woff2 $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpydmdn92s.buildStatstamp $
+    ../fonts/Afacad/webfonts/Afacad-Italic[wght].woff2 $
+    ../fonts/Afacad/webfonts/Afacad-Thin.woff2 $
+    ../fonts/Afacad/webfonts/Afacad-ExtraLight.woff2 $
+    ../fonts/Afacad/webfonts/Afacad-Light.woff2 $
+    ../fonts/Afacad/webfonts/Afacad-Regular.woff2 $
+    ../fonts/Afacad/webfonts/Afacad-Medium.woff2 $
+    ../fonts/Afacad/webfonts/Afacad-SemiBold.woff2 $
+    ../fonts/Afacad/webfonts/Afacad-Bold.woff2 $
+    ../fonts/Afacad/webfonts/Afacad-ExtraBold.woff2 $
+    ../fonts/Afacad/webfonts/Afacad-Black.woff2 $
+    ../fonts/Afacad/webfonts/Afacad-ExtraBlack.woff2 $
+    ../fonts/Afacad/webfonts/Afacad-ThinItalic.woff2 $
+    ../fonts/Afacad/webfonts/Afacad-ExtraLightItalic.woff2 $
+    ../fonts/Afacad/webfonts/Afacad-LightItalic.woff2 $
+    ../fonts/Afacad/webfonts/Afacad-Italic.woff2 $
+    ../fonts/Afacad/webfonts/Afacad-MediumItalic.woff2 $
+    ../fonts/Afacad/webfonts/Afacad-SemiBoldItalic.woff2 $
+    ../fonts/Afacad/webfonts/Afacad-BoldItalic.woff2 $
+    ../fonts/Afacad/webfonts/Afacad-ExtraBoldItalic.woff2 $
+    ../fonts/Afacad/webfonts/Afacad-BlackItalic.woff2 $
+    ../fonts/Afacad/webfonts/Afacad-ExtraBlackItalic.woff2 $
+    ../fonts/Afacad/otf/Afacad-Thin.otf $
+    ../fonts/Afacad/otf/Afacad-ExtraLight.otf $
+    ../fonts/Afacad/otf/Afacad-Light.otf $
+    ../fonts/Afacad/otf/Afacad-Regular.otf $
+    ../fonts/Afacad/otf/Afacad-Medium.otf $
+    ../fonts/Afacad/otf/Afacad-SemiBold.otf $
+    ../fonts/Afacad/otf/Afacad-Bold.otf $
+    ../fonts/Afacad/otf/Afacad-ExtraBold.otf $
+    ../fonts/Afacad/otf/Afacad-Black.otf $
+    ../fonts/Afacad/otf/Afacad-ExtraBlack.otf $
+    ../fonts/Afacad/otf/Afacad-ThinItalic.otf $
+    ../fonts/Afacad/otf/Afacad-ExtraLightItalic.otf $
+    ../fonts/Afacad/otf/Afacad-LightItalic.otf $
+    ../fonts/Afacad/otf/Afacad-Italic.otf $
+    ../fonts/Afacad/otf/Afacad-MediumItalic.otf $
+    ../fonts/Afacad/otf/Afacad-SemiBoldItalic.otf $
+    ../fonts/Afacad/otf/Afacad-BoldItalic.otf $
+    ../fonts/Afacad/otf/Afacad-ExtraBoldItalic.otf $
+    ../fonts/Afacad/otf/Afacad-BlackItalic.otf $
+    ../fonts/Afacad/otf/Afacad-ExtraBlackItalic.otf

@@ -59,23 +59,6 @@ name = "Use Typo Metrics";
 value = 1;
 },
 {
-name = "Axis Mappings";
-value = {
-wght = {
-60 = 100;
-75 = 200;
-90 = 300;
-120 = 400;
-150 = 500;
-165 = 600;
-180 = 700;
-210 = 800;
-225 = 900;
-240 = 1000;
-};
-};
-},
-{
 name = "Variable Font Origin";
 value = "DB28B65E-4CBC-4F12-8216-7B4F2F083639";
 },
@@ -1005,6 +988,28 @@ tildecomb_macroncomb,
 tildecomb.case,
 apple
 );
+},
+{
+name = "Axis Mappings";
+value = {
+slnt = {
+-14 = -14;
+0 = 0;
+14 = 14;
+};
+wght = {
+100 = 60;
+200 = 75;
+300 = 90;
+400 = 120;
+500 = 150;
+600 = 165;
+700 = 180;
+800 = 210;
+900 = 225;
+1000 = 240;
+};
+};
 }
 );
 date = "2024-03-06 08:53:10 +0000";
@@ -148890,13 +148895,17 @@ width = 720;
 {
 color = 3;
 glyphname = tildecomb.case;
-lastChange = "2024-02-29 20:47:11 +0000";
+lastChange = "2024-03-22 09:54:32 +0000";
 layers = (
 {
 anchors = (
 {
 name = _top;
 pos = (510,900);
+},
+{
+name = top;
+pos = (518,1024);
 }
 );
 guides = (
@@ -148940,6 +148949,10 @@ anchors = (
 {
 name = _top;
 pos = (510,900);
+},
+{
+name = top;
+pos = (548,1114);
 }
 );
 background = {
@@ -149003,6 +149016,10 @@ anchors = (
 {
 name = _top;
 pos = (510,900);
+},
+{
+name = top;
+pos = (558,1151);
 }
 );
 background = {
@@ -149066,6 +149083,10 @@ anchors = (
 {
 name = _top;
 pos = (510,900);
+},
+{
+name = top;
+pos = (548,1214);
 }
 );
 guides = (
@@ -149915,7 +149936,6 @@ instanceInterpolations = {
 "FCF05EF6-3D3F-478B-BA59-24992C4C44E9" = 1;
 };
 isItalic = 1;
-linkStyle = Thin;
 name = "Thin Italic";
 weightClass = 100;
 },
@@ -149928,7 +149948,6 @@ instanceInterpolations = {
 "FCF05EF6-3D3F-478B-BA59-24992C4C44E9" = 0.75;
 };
 isItalic = 1;
-linkStyle = ExtraLight;
 name = "ExtraLight Italic";
 weightClass = 200;
 },
@@ -149941,7 +149960,6 @@ instanceInterpolations = {
 "FCF05EF6-3D3F-478B-BA59-24992C4C44E9" = 0.5;
 };
 isItalic = 1;
-linkStyle = Light;
 name = "Light Italic";
 weightClass = 300;
 },
@@ -149953,7 +149971,6 @@ instanceInterpolations = {
 "DB28B65E-4CBC-4F12-8216-7B4F2F083639" = 1;
 };
 isItalic = 1;
-linkStyle = Regular;
 name = Italic;
 },
 {
@@ -149965,7 +149982,6 @@ instanceInterpolations = {
 "DB28B65E-4CBC-4F12-8216-7B4F2F083639" = 0.5;
 };
 isItalic = 1;
-linkStyle = Medium;
 name = "Medium Italic";
 weightClass = 500;
 },
@@ -149978,7 +149994,6 @@ instanceInterpolations = {
 "DB28B65E-4CBC-4F12-8216-7B4F2F083639" = 0.25;
 };
 isItalic = 1;
-linkStyle = SemiBold;
 name = "SemiBold Italic";
 weightClass = 600;
 },
@@ -149991,7 +150006,6 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = Regular;
 name = "Bold Italic";
 weightClass = 700;
 },
@@ -150004,7 +150018,6 @@ instanceInterpolations = {
 "5ACC057E-9D2C-45A0-8610-B9302B4AC058" = 0.5;
 };
 isItalic = 1;
-linkStyle = ExtraBold;
 name = "ExtraBold Italic";
 weightClass = 800;
 },
@@ -150017,7 +150030,6 @@ instanceInterpolations = {
 "5ACC057E-9D2C-45A0-8610-B9302B4AC058" = 0.25;
 };
 isItalic = 1;
-linkStyle = Black;
 name = "Black Italic";
 weightClass = 900;
 },
@@ -150029,7 +150041,6 @@ instanceInterpolations = {
 "5435BF97-BB07-4B92-90A3-3494A24C81AC" = 1;
 };
 isItalic = 1;
-linkStyle = ExtraBlack;
 name = "ExtraBlack Italic";
 weightClass = 1000;
 }
