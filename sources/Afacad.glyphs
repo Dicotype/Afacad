@@ -1,9 +1,6 @@
 {
-.appVersion = "3151";
+.appVersion = "3248";
 .formatVersion = 3;
-DisplayStrings = (
-_
-);
 axes = (
 {
 name = Weight;
@@ -65,16 +62,16 @@ value = 1;
 name = "Axis Mappings";
 value = {
 wght = {
-100 = 60;
-200 = 75;
-300 = 90;
-400 = 120;
-500 = 150;
-600 = 165;
-700 = 180;
-800 = 210;
-900 = 225;
-1000 = 240;
+60 = 100;
+75 = 200;
+90 = 300;
+120 = 400;
+150 = 500;
+165 = 600;
+180 = 700;
+210 = 800;
+225 = 900;
+240 = 1000;
 };
 };
 },
@@ -1748,6 +1745,7 @@ name = "Master Icon Glyph Name";
 value = a;
 }
 );
+iconName = Bold;
 id = "5864D40E-51E2-4FDD-96DA-51B6D988DC78";
 metricValues = (
 {
@@ -2651,7 +2649,7 @@ pos = (325,120);
 hints = (
 {
 horizontal = 1;
-place = (964, -20);
+place = (964,-20);
 target = down;
 type = TopGhost;
 }
@@ -7025,13 +7023,11 @@ type = Stem;
 },
 {
 horizontal = 1;
-place = (912, 42);
-place = (912, 42);
+place = (912,42);
 type = Stem;
 },
 {
-place = (112, 0);
-place = (112, 0);
+place = (112,0);
 target = (0,9);
 type = Stem;
 }
@@ -12038,8 +12034,7 @@ pos = (1005,480);
 hints = (
 {
 horizontal = 1;
-place = (-17, 114);
-place = (-17, 114);
+place = (-17,114);
 type = Stem;
 },
 {
@@ -12054,8 +12049,7 @@ target = (0,23);
 type = Stem;
 },
 {
-place = (777, 0);
-place = (777, 0);
+place = (777,0);
 type = Stem;
 }
 );
@@ -12319,8 +12313,7 @@ pos = (876,279);
 hints = (
 {
 horizontal = 1;
-place = (-17, 114);
-place = (-17, 114);
+place = (-17,114);
 type = Stem;
 },
 {
@@ -12477,8 +12470,7 @@ pos = (510,493);
 hints = (
 {
 horizontal = 1;
-place = (-17, 114);
-place = (-17, 114);
+place = (-17,114);
 type = Stem;
 },
 {
@@ -12499,7 +12491,7 @@ type = Stem;
 },
 {
 horizontal = 1;
-place = (728, 21);
+place = (728,21);
 target = up;
 type = BottomGhost;
 },
@@ -12620,14 +12612,12 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-place = (-17, 114);
-place = (-17, 114);
+place = (-17,114);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (817, 0);
-place = (817, 0);
+place = (817,0);
 type = Stem;
 },
 {
@@ -12642,7 +12632,7 @@ type = Stem;
 },
 {
 horizontal = 1;
-place = (728, 21);
+place = (728,21);
 target = up;
 type = BottomGhost;
 },
@@ -12833,8 +12823,7 @@ pos = (1005,480);
 hints = (
 {
 horizontal = 1;
-place = (-17, 114);
-place = (-17, 114);
+place = (-17,114);
 type = Stem;
 },
 {
@@ -12849,8 +12838,7 @@ target = (0,23);
 type = Stem;
 },
 {
-place = (777, 0);
-place = (777, 0);
+place = (777,0);
 type = Stem;
 }
 );
@@ -13052,8 +13040,7 @@ pos = (876,279);
 hints = (
 {
 horizontal = 1;
-place = (-17, 114);
-place = (-17, 114);
+place = (-17,114);
 type = Stem;
 },
 {
@@ -13210,8 +13197,7 @@ pos = (510,493);
 hints = (
 {
 horizontal = 1;
-place = (-17, 114);
-place = (-17, 114);
+place = (-17,114);
 type = Stem;
 },
 {
@@ -13232,7 +13218,7 @@ type = Stem;
 },
 {
 horizontal = 1;
-place = (728, 21);
+place = (728,21);
 target = up;
 type = BottomGhost;
 },
@@ -13353,14 +13339,12 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-place = (-17, 114);
-place = (-17, 114);
+place = (-17,114);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (817, 0);
-place = (817, 0);
+place = (817,0);
 type = Stem;
 },
 {
@@ -13375,7 +13359,7 @@ type = Stem;
 },
 {
 horizontal = 1;
-place = (728, 21);
+place = (728,21);
 target = up;
 type = BottomGhost;
 },
@@ -18673,13 +18657,13 @@ pos = (310,731);
 hints = (
 {
 horizontal = 1;
-place = (0, 21);
+place = (0,21);
 target = up;
 type = BottomGhost;
 },
 {
 horizontal = 1;
-place = (930, -20);
+place = (930,-20);
 target = down;
 type = TopGhost;
 }
@@ -61218,8 +61202,7 @@ width = 530;
 hints = (
 {
 horizontal = 1;
-place = (-11, 169);
-place = (-11, 169);
+place = (-11,169);
 type = Stem;
 },
 {
@@ -69855,8 +69838,7 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-place = (850, 76);
-place = (850, 76);
+place = (850,76);
 type = Stem;
 }
 );
@@ -72065,8 +72047,7 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-place = (0, 0);
-place = (0, 0);
+place = (0,0);
 type = Stem;
 }
 );
@@ -72496,8 +72477,7 @@ width = 760;
 hints = (
 {
 horizontal = 1;
-place = (0, 0);
-place = (0, 0);
+place = (0,0);
 type = Stem;
 }
 );
@@ -72850,18 +72830,16 @@ layers = (
 hints = (
 {
 horizontal = 1;
-place = (960, -20);
+place = (960,-20);
 target = down;
 type = TopGhost;
 },
 {
-place = (166, 108);
-place = (166, 108);
+place = (166,108);
 type = Stem;
 },
 {
-place = (546, 108);
-place = (546, 108);
+place = (546,108);
 type = Stem;
 },
 {
@@ -80660,13 +80638,12 @@ width = 690;
 hints = (
 {
 horizontal = 1;
-place = (900, 42);
-place = (900, 42);
+place = (900,42);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (0, 21);
+place = (0,21);
 target = up;
 type = BottomGhost;
 }
@@ -91084,8 +91061,7 @@ target = down;
 type = TopGhost;
 },
 {
-place = (189, 102);
-place = (189, 102);
+place = (189,102);
 type = Stem;
 },
 {
@@ -91250,8 +91226,7 @@ target = (1,11);
 type = Stem;
 },
 {
-place = (189, 102);
-place = (189, 102);
+place = (189,102);
 type = Stem;
 },
 {
@@ -94310,7 +94285,7 @@ width = 1440;
 glyphname = hyphentwo.case;
 kernLeft = hyphen.case;
 kernRight = hyphen.case;
-lastChange = "2024-02-17 09:57:43 +0000";
+lastChange = "2024-03-22 09:26:50 +0000";
 layers = (
 {
 layerId = "3E87E8DA-1F15-4738-9454-A2AB4CEA57DC";
@@ -94325,6 +94300,7 @@ width = 360;
 layerId = "5864D40E-51E2-4FDD-96DA-51B6D988DC78";
 shapes = (
 {
+alignment = -1;
 ref = hyphen.case;
 }
 );
@@ -102032,14 +102008,12 @@ type = Stem;
 },
 {
 horizontal = 1;
-place = (168, 92);
-place = (168, 92);
+place = (168,92);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (640, 92);
-place = (640, 92);
+place = (640,92);
 type = Stem;
 },
 {
@@ -102054,8 +102028,7 @@ target = (1,2);
 type = Stem;
 },
 {
-place = (361, 98);
-place = (361, 98);
+place = (361,98);
 type = Stem;
 },
 {
@@ -104651,7 +104624,7 @@ type = TopGhost;
 },
 {
 horizontal = 1;
-place = (600, 21);
+place = (600,21);
 target = up;
 type = BottomGhost;
 }
@@ -126553,20 +126526,19 @@ width = 1440;
 hints = (
 {
 horizontal = 1;
-place = (-690, -20);
+place = (-690,-20);
 target = down;
 type = TopGhost;
 },
 {
 horizontal = 1;
-place = (-90, 21);
+place = (-90,21);
 target = up;
 type = BottomGhost;
 },
 {
 horizontal = 1;
-place = (-355, -70);
-place = (-355, -70);
+place = (-355,-70);
 type = Stem;
 }
 );
@@ -126817,25 +126789,25 @@ width = 1440;
 hints = (
 {
 horizontal = 1;
-place = (-818, -20);
+place = (-818,-20);
 target = down;
 type = TopGhost;
 },
 {
 horizontal = 1;
-place = (-633, 21);
+place = (-633,21);
 target = up;
 type = BottomGhost;
 },
 {
 horizontal = 1;
-place = (-216, 21);
+place = (-216,21);
 target = up;
 type = BottomGhost;
 },
 {
 horizontal = 1;
-place = (38, 21);
+place = (38,21);
 target = up;
 type = BottomGhost;
 }
@@ -127136,19 +127108,18 @@ associatedMasterId = "3E87E8DA-1F15-4738-9454-A2AB4CEA57DC";
 hints = (
 {
 horizontal = 1;
-place = (0, 0);
-place = (0, 0);
+place = (0,0);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (0, -20);
+place = (0,-20);
 target = down;
 type = TopGhost;
 },
 {
 horizontal = 1;
-place = (0, 21);
+place = (0,21);
 target = up;
 type = BottomGhost;
 }
@@ -127852,13 +127823,13 @@ width = 1440;
 hints = (
 {
 horizontal = 1;
-place = (-912, -20);
+place = (-912,-20);
 target = down;
 type = TopGhost;
 },
 {
 horizontal = 1;
-place = (132, 21);
+place = (132,21);
 target = up;
 type = BottomGhost;
 }
@@ -128836,13 +128807,13 @@ width = 1440;
 hints = (
 {
 horizontal = 1;
-place = (984, -20);
+place = (984,-20);
 target = down;
 type = TopGhost;
 },
 {
 horizontal = 1;
-place = (-204, 21);
+place = (-204,21);
 target = up;
 type = BottomGhost;
 }
@@ -129016,13 +128987,13 @@ width = 1440;
 hints = (
 {
 horizontal = 1;
-place = (984, -20);
+place = (984,-20);
 target = down;
 type = TopGhost;
 },
 {
 horizontal = 1;
-place = (-204, 21);
+place = (-204,21);
 target = up;
 type = BottomGhost;
 }
@@ -129096,7 +129067,7 @@ pos = (380,569);
 hints = (
 {
 horizontal = 1;
-place = (-192, 21);
+place = (-192,21);
 target = up;
 type = BottomGhost;
 },
@@ -130146,13 +130117,13 @@ width = 1440;
 hints = (
 {
 horizontal = 1;
-place = (30, 21);
+place = (30,21);
 target = up;
 type = BottomGhost;
 },
 {
 horizontal = 1;
-place = (-870, -20);
+place = (-870,-20);
 target = down;
 type = TopGhost;
 }
@@ -130284,13 +130255,13 @@ width = 1440;
 hints = (
 {
 horizontal = 1;
-place = (1882, -20);
+place = (1882,-20);
 target = down;
 type = TopGhost;
 },
 {
 horizontal = 1;
-place = (-198, 21);
+place = (-198,21);
 target = up;
 type = BottomGhost;
 }
@@ -130422,13 +130393,13 @@ width = 1440;
 hints = (
 {
 horizontal = 1;
-place = (810, -20);
+place = (810,-20);
 target = down;
 type = TopGhost;
 },
 {
 horizontal = 1;
-place = (-90, 21);
+place = (-90,21);
 target = up;
 type = BottomGhost;
 }
@@ -130560,13 +130531,13 @@ width = 1440;
 hints = (
 {
 horizontal = 1;
-place = (941, -20);
+place = (941,-20);
 target = down;
 type = TopGhost;
 },
 {
 horizontal = 1;
-place = (-99, 21);
+place = (-99,21);
 target = up;
 type = BottomGhost;
 }
@@ -130738,14 +130709,13 @@ pos = (747,-90);
 hints = (
 {
 horizontal = 1;
-place = (930, -20);
+place = (930,-20);
 target = down;
 type = TopGhost;
 },
 {
 horizontal = 1;
-place = (-90, 142);
-place = (-90, 142);
+place = (-90,142);
 type = Stem;
 }
 );
@@ -131162,13 +131132,12 @@ width = 1440;
 hints = (
 {
 horizontal = 1;
-place = (-780, -60);
-place = (-780, -60);
+place = (-780,-60);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (60, 21);
+place = (60,21);
 target = up;
 type = BottomGhost;
 }
@@ -136541,7 +136510,7 @@ type = Stem;
 },
 {
 horizontal = 1;
-place = (690, 21);
+place = (690,21);
 target = up;
 type = BottomGhost;
 },
@@ -138147,8 +138116,7 @@ pos = (360,930);
 hints = (
 {
 horizontal = 1;
-place = (940, 0);
-place = (940, 0);
+place = (940,0);
 type = Stem;
 }
 );
@@ -138723,8 +138691,7 @@ pos = (360,1149);
 hints = (
 {
 horizontal = 1;
-place = (985, 143);
-place = (985, 143);
+place = (985,143);
 type = Stem;
 }
 );
@@ -139504,8 +139471,7 @@ pos = (360,929);
 hints = (
 {
 horizontal = 1;
-place = (940, 0);
-place = (940, 0);
+place = (940,0);
 type = Stem;
 }
 );
@@ -151040,23 +151006,6 @@ key = designerURL;
 value = "https://www.ktkm.se";
 },
 {
-key = manufacturers;
-values = (
-{
-language = dflt;
-value = Dicotype;
-}
-);
-},
-{
-key = manufacturerURL;
-value = "https://www.dicotype.com";
-},
-{
-key = versionString;
-value = "Version 1.100; Development; Release 2; Build 9";
-},
-{
 key = licenses;
 values = (
 {
@@ -151070,8 +151019,25 @@ key = licenseURL;
 value = "https://scripts.sil.org/OFL";
 },
 {
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = Dicotype;
+}
+);
+},
+{
+key = manufacturerURL;
+value = "https://www.dicotype.com";
+},
+{
 key = vendorID;
 value = DICO;
+},
+{
+key = versionString;
+value = "Version 1.100; Development; Release 2; Build 9";
 }
 );
 settings = {
