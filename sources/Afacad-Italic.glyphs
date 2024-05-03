@@ -1,5 +1,5 @@
 {
-.appVersion = "3248";
+.appVersion = "3302";
 .formatVersion = 3;
 axes = (
 {
@@ -1085,11 +1085,13 @@ lookup ccmp_Other_2 {
 	lookupflag 0;
 	@Markscomb = [acutecomb dieresiscomb dotaccentcomb dotbelowcomb gravecomb hookabovecomb ringcomb_acutecomb ringcomb strokeshortcomb tildecomb];
 	@MarkscombCase = [acutecomb.case dieresiscomb.case dotaccentcomb.case dotbelowcomb.case gravecomb.case hookabovecomb.case ringcomb_acutecomb.case ringcomb.case strokeshortcomb.case tildecomb.case];
+	sub @Markscomb @Markscomb' by @MarkscombCase;
 	sub @Uppercase @Markscomb' by @MarkscombCase;
 } ccmp_Other_2;
 
 lookup ccmp_Other_3 {
 	lookupflag 0;
+	sub @Markscomb' @MarkscombCase by @MarkscombCase;
 	sub @MarkscombCase @Markscomb' by @MarkscombCase;
 } ccmp_Other_3;
 
@@ -1356,7 +1358,6 @@ code = "sub colon by colon.case;
 sub semicolon by semicolon.case;
 sub periodcentered.loclCAT by periodcentered.loclCAT.case;
 sub hyphen by hyphen.case;
-sub softhyphen by softhyphen.case;
 sub endash by endash.case;
 sub threequarteremdash by threequarteremdash.case;
 sub emdash by emdash.case;
@@ -1413,9 +1414,8 @@ sub zero.lf.ss01 by zero.lf.zero.ss01;
 tag = zero;
 },
 {
-code = "sub @Uppercase [colon semicolon hyphen softhyphen endash emdash hyphentwo guillemetleft guillemetright guilsinglleft guilsinglright]' @Uppercase by [colon.case semicolon.case hyphen.case softhyphen.case endash.case emdash.case hyphentwo.case guillemetleft.case guillemetright.case guilsinglleft.case guilsinglright.case];
-sub @Numerals [colon semicolon hyphen softhyphen endash emdash hyphentwo guillemetleft guillemetright guilsinglleft guilsinglright]' @Numerals by [colon.case semicolon.case hyphen.case softhyphen.case endash.case emdash.case hyphentwo.case guillemetleft.case guillemetright.case guilsinglleft.case guilsinglright.case];
-sub period slash period by commercialMinusSign;";
+code = "sub period slash period by commercialMinusSign;
+";
 tag = calt;
 },
 {
@@ -96277,55 +96277,6 @@ width = 400;
 unicode = 45;
 },
 {
-glyphname = softhyphen;
-kernLeft = hyphen;
-kernRight = hyphen;
-lastChange = "2024-02-17 09:57:43 +0000";
-layers = (
-{
-layerId = "FCF05EF6-3D3F-478B-BA59-24992C4C44E9";
-shapes = (
-{
-alignment = -1;
-ref = hyphen;
-}
-);
-width = 340;
-},
-{
-layerId = "DB28B65E-4CBC-4F12-8216-7B4F2F083639";
-shapes = (
-{
-alignment = 1;
-ref = hyphen;
-}
-);
-width = 360;
-},
-{
-layerId = "5ACC057E-9D2C-45A0-8610-B9302B4AC058";
-shapes = (
-{
-alignment = 1;
-ref = hyphen;
-}
-);
-width = 380;
-},
-{
-layerId = "5435BF97-BB07-4B92-90A3-3494A24C81AC";
-shapes = (
-{
-alignment = -1;
-ref = hyphen;
-}
-);
-width = 400;
-}
-);
-unicode = 173;
-},
-{
 color = 3;
 glyphname = endash;
 kernLeft = hyphen;
@@ -96797,54 +96748,6 @@ shapes = (
 alignment = -1;
 pos = (0,135);
 ref = hyphen;
-}
-);
-width = 400;
-}
-);
-},
-{
-glyphname = softhyphen.case;
-kernLeft = hyphen.case;
-kernRight = hyphen.case;
-lastChange = "2024-02-19 19:26:03 +0000";
-layers = (
-{
-layerId = "FCF05EF6-3D3F-478B-BA59-24992C4C44E9";
-shapes = (
-{
-alignment = -1;
-ref = hyphen.case;
-}
-);
-width = 340;
-},
-{
-layerId = "DB28B65E-4CBC-4F12-8216-7B4F2F083639";
-shapes = (
-{
-alignment = 1;
-ref = hyphen.case;
-}
-);
-width = 360;
-},
-{
-layerId = "5ACC057E-9D2C-45A0-8610-B9302B4AC058";
-shapes = (
-{
-alignment = 1;
-ref = hyphen.case;
-}
-);
-width = 380;
-},
-{
-layerId = "5435BF97-BB07-4B92-90A3-3494A24C81AC";
-shapes = (
-{
-alignment = -1;
-ref = hyphen.case;
 }
 );
 width = 400;

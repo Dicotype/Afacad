@@ -5,7 +5,7 @@ axisOrder:
   - slnt
   - wght
 stat:
-  Afacad[slnt,wght].ttf:
+  AfacadFlux[slnt,wght].ttf:
   - name: Slant
     tag: slnt
     values:
@@ -39,4 +39,4 @@ stat:
 outputDir: "../fonts/Afacad_Flux"
 buildTTF: true
 buildOTF: false
-#autohintTTF: false
+# autohintTTF: false
