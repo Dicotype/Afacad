@@ -1,0 +1,41 @@
+/!\ TO READ /!\
+
+
+1) The files
+
+
+The first version of Afacad is a variable font with a weight axis + italics.
+There are 2 .glyphs files:
+- Afacad.glyphs
+- Afacad-Italic.glyphs
+
+And two fonts files in the fonts folder fonts/Afacad/variable
+- Afacad[wght].ttf
+- Afacad-Italic[wght].ttf
+
+
+To build them, run 'gftools builder config.yaml'
+
+______________________
+
+The second version of Afacad is called Afacad Flux. It's basically the same masters, gathered in one file + a back slant master. This version was created to add a backslant version, since we couldn't add it to the previous version that already had an italic.
+
+There are one .glyphs file:
+- AfacadFlux.glyphs
+
+And one font file in the fonts folder fonts/Afacad_Flux/variable
+- AfacadFlux[slnt,wght].ttf
+
+
+To build them, run 'gftools builder config_flux.yaml'
+
+______________________
+
+To build all the fonts, run 'sh build.sh'
+
+
+2) Add modifications
+
+It's very important that all the files are synchronised. If you add for instance a greek support that you draw in Afacad Flux, make sure to copy it in Afacad and Afacad-Italic. 
+
+The upright masters and italic masters are the same in all the .glyphs files. The only difference is a new master called "Backslant" in Afacad Flux.
