@@ -5,7 +5,7 @@ The ’Afacad typeface project’ commenced in 2017 as a personalised lettering 
 
 ![Afacad Flux Promotion 2](https://github.com/Dicotype/Afacad/blob/main/documents/afacad_flux_02_promo.png)
 
-Afacad Flux adds an extra dimension in the form of a back-slanted version to commemorate the typesetting of river names in historical cartography. Furthermore, the inclusion of supplementary weights and expanded language support contributes to a versatile typeface collection well-suited for industrial and commercial applications.
+‘Afacad Flux’ adds an extra dimension in the form of a back-slanted version to commemorate the typesetting of river names in historical cartography. Furthermore, the inclusion of supplementary weights and expanded language support contributes to a versatile typeface collection well-suited for industrial and commercial applications.
 
 ![Afacad Flux Promotion 3](https://github.com/Dicotype/Afacad/blob/main/documents/afacad_flux_03_promo.png)
 
