@@ -150480,9 +150480,6 @@ three.lf = -60;
 "@MMK_L_l.ss03" = {
 "@MMK_R_v" = -30;
 };
-"@MMK_L_ohorn" = {
-"@MMK_R_c" = -10;
-};
 "@MMK_L_period" = {
 "@MMK_R_C" = -130;
 "@MMK_R_J" = 30;
@@ -151237,7 +151234,7 @@ zero.lf = -60;
 "@MMK_R_quotesingle" = -30;
 };
 "@MMK_L_uhorn" = {
-"@MMK_R_c" = -50;
+"@MMK_R_c" = -30;
 };
 "@MMK_L_v" = {
 "@MMK_R_A" = -50;
@@ -151803,7 +151800,7 @@ threesuperior = -100;
 "@MMK_R_v" = 30;
 };
 "@MMK_L_ohorn" = {
-"@MMK_R_c" = -10;
+"@MMK_R_c" = -20;
 };
 "@MMK_L_period" = {
 "@MMK_R_C" = -70;
@@ -151908,7 +151905,7 @@ zcaron = -30;
 "@MMK_R_quotesingle" = -30;
 };
 "@MMK_L_uhorn" = {
-"@MMK_R_c" = -50;
+"@MMK_R_c" = -20;
 };
 "@MMK_L_v" = {
 "@MMK_R_A" = -50;
@@ -152606,7 +152603,7 @@ threesuperior = -80;
 "@MMK_R_v" = 30;
 };
 "@MMK_L_ohorn" = {
-"@MMK_R_c" = -30;
+"@MMK_R_c" = -10;
 };
 "@MMK_L_period" = {
 "@MMK_R_A" = 30;
