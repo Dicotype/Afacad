@@ -38,5 +38,5 @@ stat:
       value: 1000
 outputDir: "../fonts/Afacad_Flux"
 buildTTF: true
-buildOTF: false
+buildOTF: true
 # autohintTTF: false
