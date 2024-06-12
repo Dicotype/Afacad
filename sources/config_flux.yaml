@@ -9,9 +9,13 @@ stat:
   - name: Slant
     tag: slnt
     values:
+    - name: Backslant
+      value: 14
     - name: Default
       value: 0
       flags: 2
+    - name: Italic
+      value: -14
   - name: Weight
     tag: wght
     values:
@@ -37,6 +41,7 @@ stat:
     - name: ExtraBlack
       value: 1000
 outputDir: "../fonts/Afacad_Flux"
-buildTTF: true
-buildOTF: true
-# autohintTTF: false
+buildTTF: false
+buildOTF: false
+splitItalic: false
+autohintTTF: false
