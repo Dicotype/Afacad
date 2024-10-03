@@ -15,6 +15,6 @@ The alphabet, numerals and symbols were designed by Kristian Möller (KTKM, http
 
 The Afacad project is led by Kristian Möller, a type designer based in Stockholm. To contribute, see (https://github.com/Dicotype/Afacad).
 
-![Afacad Flux Promotion 5](https://github.com/Dicotype/Afacad/blob/main/documents/artwork%20flux/afacad_flux_05_artwork.png)
+![Afacad Flux Promotion 5](https://github.com/Dicotype/Afacad/blob/main/documents/artwork%20flux/afacad_flux_04_artwork.png)
 
 
